@@ -1,0 +1,2302 @@
+{
+    "Section 1": {
+        "title": "Title and extent of operation of the Code",
+        "description": "This Act shall be called the Indian Penal Code and shall extend to the whole of India except the State of Jammu and Kashmir."
+    },
+    "Section 2": {
+        "title": "Punishment of offences committed within India",
+        "description": "Every person shall be liable to punishment under this Code for every act or omission contrary to its provisions committed within India."
+    },
+    "Section 3": {
+        "title": "Punishment of offences committed beyond, but which by law may be tried within India",
+        "description": "Any person liable under Indian law for an offense committed beyond India shall be dealt with according to this Code as if the offense had been committed within India."
+    },
+    "Section 4": {
+        "title": "Extension of Code to extra-territorial offences",
+        "description": "The provisions of this Code apply to offenses committed by (1) any Indian citizen anywhere in the world, and (2) any person on a ship or aircraft registered in India, regardless of location."
+    },
+    "Section 5": {
+        "title": "Certain laws not to be affected by this Act",
+        "description": "Nothing in this Act shall affect laws related to mutiny, desertion, or special and local laws."
+    },
+    "Section 6": {
+        "title": "Definitions in the Code to be understood subject to exceptions",
+        "description": "Every definition, penal provision, and illustration in this Code shall be understood subject to the exceptions in the 'General Exceptions' chapter."
+    },
+    "Section 7": {
+        "title": "Sense of expression once explained",
+        "description": "Any expression explained in one part of this Code shall be used in the same sense throughout the Code."
+    },
+    "Section 8": {
+        "title": "Gender",
+        "description": "The pronoun 'he' and its derivatives include both male and female persons."
+    },
+    "Section 9": {
+        "title": "Number",
+        "description": "Words importing the singular number include the plural, and vice versa."
+    },
+    "Section 10": {
+        "title": "Man, Woman",
+        "description": "Man' denotes a male human being of any age, and 'woman' denotes a female human being of any age."
+    },
+    "Section 11": {
+        "title": "Person",
+        "description": "Person' includes any company, association, or body of persons, whether incorporated or not."
+    },
+    "Section 12": {
+        "title": "Public",
+        "description": "Public' includes any class of the public or any community."
+    },
+    "Section 13": {
+        "title": "Queen  ",
+        "description": "  "
+    },
+    "Section 14": {
+        "title": "Servant of Government",
+        "description": "Servant of Government' includes any officer or employee appointed or employed by the Government."
+    },
+    "Section 15": {
+        "title": "British India   ",
+        "description": "  "
+    },
+    "Section 16": {
+        "title": "Government of India   ",
+        "description": "  "
+    },
+    "Section 17": {
+        "title": "Government",
+        "description": "Government' refers to the Central Government or a State Government."
+    },
+    "Section 18": {
+        "title": "India",
+        "description": "India' means the territory of India, excluding Jammu and Kashmir."
+    },
+    "Section 19": {
+        "title": "Judge",
+        "description": "Judge' denotes a person officially designated as a judge or empowered by law to give judgments in legal proceedings."
+    },
+    "Section 20": {
+        "title": "Court of Justice",
+        "description": "Court of Justice' denotes a judge or a body of judges authorized by law to act judicially."
+    },
+    "Section 21": {
+        "title": "Public Servant",
+        "description": "Public Servant' includes judges, military officers, police officers, revenue officers, and any other government officials performing public duties."
+    },
+    "Section 22": {
+        "title": "Moveable Property",
+        "description": "Moveable Property' includes all corporeal property except land and things permanently attached to it."
+    },
+    "Section 23": {
+        "title": "Wrongful Gain",
+        "description": "Wrongful Gain' is gaining property unlawfully. 'Wrongful Loss' is losing property unlawfully."
+    },
+    "Section 24": {
+        "title": "Dishonestly",
+        "description": "Dishonestly' refers to doing something with the intention of wrongful gain or wrongful loss."
+    },
+    "Section 25": {
+        "title": "Fraudulently",
+        "description": "Fraudulently' refers to doing something with intent to defraud."
+    },
+    "Section 26": {
+        "title": "Reason to Believe",
+        "description": "Reason to Believe' exists when a person has sufficient cause to believe something."
+    },
+    "Section 27": {
+        "title": "Property in possession of wife, clerk or servant",
+        "description": "Property in the possession of a wife, clerk, or servant on account of another person is deemed to be in that person\u2019s possession."
+    },
+    "Section 28": {
+        "title": "Counterfeit",
+        "description": "Counterfeit' means making one thing resemble another with intent to deceive."
+    },
+    "Section 29": {
+        "title": "Document",
+        "description": "Document' refers to any matter expressed through letters, figures, or marks, intended for use as evidence."
+    },
+    "Section 29A": {
+        "title": "Electronic record",
+        "description": "Electronic Record' has the meaning assigned to it under the Information Technology Act, 2000."
+    },
+    "Section 30": {
+        "title": "Valuable Security",
+        "description": "Valuable Security' is a document that creates, extends, transfers, or extinguishes a legal right."
+    },
+    "Section 31": {
+        "title": "A Will",
+        "description": "A Will' refers to any testamentary document."
+    },
+    "Section 32": {
+        "title": "Words referring to acts include illegal omissions",
+        "description": "Words referring to acts include illegal omissions."
+    },
+    "Section 33": {
+        "title": "Act Omission",
+        "description": "Act' includes both a single act and a series of acts. 'Omission' includes both a single omission and a series of omissions."
+    },
+    "Section 34": {
+        "title": "Acts done by several persons in furtherance of common intention",
+        "description": "When a criminal act is done by several persons with a common intention, each person is liable as if they did it alone."
+    },
+    "Section 35": {
+        "title": "When such an act is criminal by reason of its being done with a criminal knowledge or intention",
+        "description": "If an act is criminal due to criminal knowledge or intention, each participant with such knowledge or intention is liable."
+    },
+    "Section 36": {
+        "title": "Effect caused partly by act and partly by omission",
+        "description": "Causing an effect partly by an act and partly by an omission is considered the same offense."
+    },
+    "Section 37": {
+        "title": "Co-operation by doing one of several acts constituting an offence",
+        "description": "A person who intentionally cooperates in an offense by doing any act constituting it is guilty of the offense."
+    },
+    "Section 38": {
+        "title": "Persons concerned in criminal act may be guilty of different offences",
+        "description": "Persons involved in a criminal act may be guilty of different offenses."
+    },
+    "Section 39": {
+        "title": "Voluntarily",
+        "description": "Voluntarily' means causing an effect intentionally or knowing it is likely to occur."
+    },
+    "Section 40": {
+        "title": "Offence",
+        "description": "Offense' refers to any act punishable under this Code or any special or local law."
+    },
+    "Section 41": {
+        "title": "Special Law",
+        "description": "A 'Special Law' applies to a particular subject."
+    },
+    "Section 42": {
+        "title": "Local Law",
+        "description": "A 'Local Law' applies only to a specific area in India."
+    },
+    "Section 43": {
+        "title": "Illegal, Legally bound to do",
+        "description": "Illegal' refers to anything that is an offense, prohibited by law, or grounds for a civil action."
+    },
+    "Section 44": {
+        "title": "Injury",
+        "description": "Injury' means harm caused illegally to a person\u2019s body, mind, reputation, or property."
+    },
+    "Section 45": {
+        "title": "Life",
+        "description": "Life' denotes human life unless the context suggests otherwise."
+    },
+    "Section 46": {
+        "title": "Death",
+        "description": "Death' refers to the death of a human being."
+    },
+    "Section 47": {
+        "title": "Animal",
+        "description": "Animal' includes any living creature except humans."
+    },
+    "Section 48": {
+        "title": "Vessel",
+        "description": "Vessel' means anything made for water transport of people or property."
+    },
+    "Section 49": {
+        "title": "Year, Month",
+        "description": "Year' and 'Month' are calculated according to the British calendar."
+    },
+    "Section 50": {
+        "title": "Section",
+        "description": "Section' denotes a numbered portion of a chapter in this Code."
+    },
+    "Section 51": {
+        "title": "Oath",
+        "description": "Oath' includes a solemn affirmation or legally required declaration."
+    },
+    "Section 52": {
+        "title": "Good faith",
+        "description": "Good Faith' means something is not done in good faith if it is done without due care and attention."
+    },
+    "Section 52A": {
+        "title": "Harbour",
+        "description": "Harbour' means providing shelter, food, money, or other assistance to evade apprehension."
+    },
+    "Section 53": {
+        "title": "Punishment",
+        "description": "Punishments under this Code include death, life imprisonment, imprisonment (rigorous or simple), forfeiture of property, and fines."
+    },
+    "Section 53A": {
+        "title": "Construction of reference to transportation",
+        "description": "References to 'transportation for life' shall be interpreted as 'imprisonment for life'."
+    },
+    "Section 54": {
+        "title": "Commutation of sentence of death",
+        "description": "The appropriate government may commute a death sentence to any lesser punishment without the offender\u2019s consent."
+    },
+    "Section 55": {
+        "title": "Commutation of sentence of imprisonment for life",
+        "description": "The appropriate government may commute a life imprisonment sentence to a term not exceeding 14 years."
+    },
+    "Section 55A": {
+        "title": "Definition of appropriate Government",
+        "description": "Appropriate Government' for commuting sentences is defined based on executive jurisdiction."
+    },
+    "Section 56": {
+        "title": "Sentence of Europeans and Americans to penal servitude   ",
+        "description": "  "
+    },
+    "Section 57": {
+        "title": "Fractions of terms of punishment",
+        "description": "For calculating fractions of punishments, life imprisonment is considered equivalent to 20 years."
+    },
+    "Section 58": {
+        "title": "Offenders sentenced to transportation how dealt with until transported   ",
+        "description": "  "
+    },
+    "Section 59": {
+        "title": "Transportation instead of imprisonment   ",
+        "description": "  "
+    },
+    "Section 60": {
+        "title": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple",
+        "description": "A court may direct that imprisonment be wholly or partially rigorous or simple."
+    },
+    "Section 61": {
+        "title": "Sentence of forfeiture of property   ",
+        "description": "  "
+    },
+    "Section 62": {
+        "title": "Forfeiture of property, in respect of offenders punishable with death, transportation or imprisonment   ",
+        "description": "  "
+    },
+    "Section 63": {
+        "title": "Amount of fine",
+        "description": "The amount of fine is unlimited unless specified, but must not be excessive."
+    },
+    "Section 64": {
+        "title": "Sentence of imprisonment for non-payment of fine",
+        "description": "A sentence may include imprisonment in default of fine payment."
+    },
+    "Section 65": {
+        "title": "Limit to imprisonment for non-payment of fine, when imprisonment and fine awardable",
+        "description": "The term of imprisonment for non-payment of fine shall not exceed one-fourth of the maximum sentence for the offense."
+    },
+    "Section 66": {
+        "title": "Description of imprisonment for non-payment of fine",
+        "description": "The nature of imprisonment for non-payment of a fine depends on the type of offense."
+    },
+    "Section 67": {
+        "title": "Imprisonment for non-payment of fine when offence punishable with fine only",
+        "description": "If an offense is punishable only with a fine, default imprisonment shall be simple."
+    },
+    "Section 68": {
+        "title": "Imprisonment to terminate on payment of fine",
+        "description": "Imprisonment for non-payment of fine ends upon payment of the fine."
+    },
+    "Section 69": {
+        "title": "Termination of imprisonment on payment of proportional part of fine",
+        "description": "If part of a fine is paid, proportional reduction in imprisonment applies."
+    },
+    "Section 70": {
+        "title": "Fine levied within six years, or during imprisonment - Death not to discharge property from liability",
+        "description": "A fine may be recovered within six years or during imprisonment, and liability remains even after death."
+    },
+    "Section 71": {
+        "title": "Limit of punishment of offence made up of several offences",
+        "description": "If an offense consists of multiple parts, the offender shall not be punished for more than one unless explicitly stated."
+    },
+    "Section 72": {
+        "title": "Punishment of person guilty of one of several offences, the judgment stating that it is doubtful of which",
+        "description": "If a person is convicted of one of multiple offenses, the lowest applicable punishment shall be given."
+    },
+    "Section 73": {
+        "title": "Solitary confinement",
+        "description": "Solitary confinement may be imposed for up to three months depending on the term of imprisonment."
+    },
+    "Section 74": {
+        "title": "Limit of solitary confinement",
+        "description": "Solitary confinement must not exceed 14 days at a time and must have breaks between periods."
+    },
+    "Section 75": {
+        "title": "Enhanced punishment for certain offences under Chapter XII or Chapter XVII after previous conviction",
+        "description": "A person convicted under Chapters XII or XVII with a prior conviction may face enhanced punishment."
+    },
+    "Section 76": {
+        "title": "Act done by a person bound, or by mistake of fact believing himself bound, by law",
+        "description": "No offense is committed if an act is done by a person bound by law or who mistakenly believes they are bound by law."
+    },
+    "Section 77": {
+        "title": "Act of Judge when acting judicially",
+        "description": "A judge acting judicially under lawful authority commits no offense."
+    },
+    "Section 78": {
+        "title": "Act done pursuant to the judgment or order of Court",
+        "description": "Acts done in pursuance of a court order are not offenses."
+    },
+    "Section 79": {
+        "title": "Act done by a person justified, or by mistake of fact believing himself justified, by law",
+        "description": "No offense is committed if a person, in good faith, believes they are justified by law in doing an act."
+    },
+    "Section 80": {
+        "title": "Accident in doing a lawful act",
+        "description": "No offense is committed if an act is accidental and done lawfully with due caution."
+    },
+    "Section 81": {
+        "title": "Act likely to cause harm, but done without criminal intent, and to prevent other harm",
+        "description": "An act done without criminal intent to prevent greater harm is not an offense."
+    },
+    "Section 82": {
+        "title": "Act of a child under seven years of age",
+        "description": "A child under seven years of age commits no offense."
+    },
+    "Section 83": {
+        "title": "Act of a child above seven and under twelve of immature understanding",
+        "description": "A child between seven and twelve who lacks sufficient maturity to understand the consequences of their act commits no offense."
+    },
+    "Section 84": {
+        "title": "Act of a person of unsound mind",
+        "description": "An act done by a person of unsound mind who cannot understand its nature is not an offense."
+    },
+    "Section 85": {
+        "title": "Act of a person incapable of judgment by reason of intoxication caused against his will",
+        "description": "An act done in involuntary intoxication is not an offense."
+    },
+    "Section 86": {
+        "title": "Offence requiring a particular intent of knowledge committed by one who is intoxicated",
+        "description": "A voluntarily intoxicated person is treated as having normal intent unless intoxicated involuntarily."
+    },
+    "Section 87": {
+        "title": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent",
+        "description": "Acts not intended to cause serious harm and done with consent are not offenses."
+    },
+    "Section 88": {
+        "title": "Act not intended to cause death, done by consent in good faith for person\u2019s benefit",
+        "description": "Acts done in good faith for another\u2019s benefit with their consent are not offenses."
+    },
+    "Section 89": {
+        "title": "Act done in good faith for benefit of child or insane person, by or by consent of guardian",
+        "description": "Acts done in good faith for a child or insane person\u2019s benefit are not offenses, with exceptions."
+    },
+    "Section 90": {
+        "title": "Consent known to be given under fear or misconception",
+        "description": "Consent given under fear, misconception, or by an incapable person is invalid."
+    },
+    "Section 91": {
+        "title": "Exclusion of acts which are offences independently of harm caused",
+        "description": "Acts that are offenses independently of harm caused are not excused by consent."
+    },
+    "Section 92": {
+        "title": "Act done in good faith for benefit of a person without consent",
+        "description": "Acts done in good faith for a person\u2019s benefit without consent may be excused."
+    },
+    "Section 93": {
+        "title": "Communication made in good faith",
+        "description": "A communication made in good faith for a person's benefit is not an offense."
+    },
+    "Section 94": {
+        "title": "Act to which a person is compelled by threats",
+        "description": "Acts done under threat of instant death, except for murder or offenses against the State, are excused"
+    },
+    "Section 95": {
+        "title": "Act causing slight harm",
+        "description": "Acts causing slight harm that no reasonable person would complain about are not offenses."
+    },
+    "Section 96": {
+        "title": "Things done in private defence",
+        "description": "Acts done in good faith for a person\u2019s benefit Acts done in private defense are not offenses.without consent may be excused."
+    },
+    "Section 97": {
+        "title": "Right of private defence of the body and of property",
+        "description": "The right of private defense applies to both body and property."
+    },
+    "Section 98": {
+        "title": "Right of private defence against the act of a person of unsound mind, etc.",
+        "description": "The right of private defense applies even against acts by persons lacking legal responsibility."
+    },
+    "Section 99": {
+        "title": "Act against which there is no right of private defence",
+        "description": "The right of private defense has restrictions."
+    },
+    "Section 100": {
+        "title": "When the right of private defence of the body extends to causing death",
+        "description": "The right of private defense of the body extends to causing death in specific circumstances."
+    },
+    "Section 101": {
+        "title": "When such right extends to causing any harm other than death",
+        "description": "If the offense is not among those mentioned in the previous section, the right of private defense does not extend to causing death but allows any harm other than death."
+    },
+    "Section 102": {
+        "title": "Commencement and continuance of the right of private defence of the body",
+        "description": "The right of private defense of the body begins as soon as there is a reasonable apprehension of danger and continues as long as such apprehension exists."
+    },
+    "Section 103": {
+        "title": "When the right of private defence of property extends to causing death",
+        "description": "The right of private defense of property extends to causing death if the offense involves robbery, house-breaking by night, mischief by fire on a dwelling, or theft causing apprehension of grievous hurt."
+    },
+    "Section 104": {
+        "title": "When such right extends to causing any harm other than death",
+        "description": "If the offense does not meet the conditions of the previous section, the right of private defense extends to any harm except death."
+    },
+    "Section 105": {
+        "title": "Commencement and continuance of the right of private defence of property",
+        "description": "The right of private defense of property starts when danger is reasonably apprehended and continues until the danger ceases."
+    },
+    "Section 106": {
+        "title": "Right of private defence against deadly assault when there is a risk of harm to innocent persons",
+        "description": "If exercising the right of private defense against a deadly assault risks harming an innocent person, the defender is still justified."
+    },
+    "Section 107": {
+        "title": "Abetment of a thing",
+        "description": "A person abets an offense if they instigate, conspire, or intentionally aid in its commission."
+    },
+    "Section 108": {
+        "title": "Abettor",
+        "description": "A person who abets an offense either directly or indirectly is called an abettor."
+    },
+    "Section  108A": {
+        "title": "Abetment in India of offences outside India",
+        "description": "A person in India abetting an offense outside India is still liable under this Code."
+    },
+    "Section 109": {
+        "title": "Punishment of abetment if the act abetted is committed in consequence",
+        "description": "If an act abetted is committed, the abettor is liable to the same punishment unless otherwise specified."
+    },
+    "Section 110": {
+        "title": "Punishment of abetment if person abetted does act with different intention",
+        "description": "If the person abetted commits the act with a different intention than the abettor, the punishment is based on what the abettor intended."
+    },
+    "Section 111": {
+        "title": "Liability of abettor when one act abetted and a different act done",
+        "description": "If a different act is done than what was abetted, the abettor is liable if the act was a probable consequence of the abetment."
+    },
+    "Section 112": {
+        "title": "Abettor when liable to cumulative punishment",
+        "description": "If an abettor is liable for an act done due to abetment, they may receive cumulative punishment for both acts."
+    },
+    "Section 113": {
+        "title": "Liability of abettor for an effect different from intended",
+        "description": "If an act abetted causes a different effect than intended, the abettor is liable for the actual effect if they foresaw it."
+    },
+    "Section 114": {
+        "title": "Abettor present when offence is committed",
+        "description": "An abettor present at the commission of an offense is treated as if they committed it."
+    },
+    "Section 115": {
+        "title": "Abetment of offence punishable with death or life imprisonment\u2014if offence not committed",
+        "description": "If an abettor aids an offense punishable by death or life imprisonment but the offense is not committed, they can be imprisoned for up to 7 years; if harm is caused, up to 14 years."
+    },
+    "Section 116": {
+        "title": "Abetment of offence punishable with imprisonment\u2014if offence not committed",
+        "description": "If an abettor aids an offense punishable with imprisonment and the offense is not committed, they can be imprisoned up to one-fourth of the maximum term."
+    },
+    "Section 117": {
+        "title": "Abetting commission of offence by the public or by more than ten persons",
+        "description": "Abetting an offense by the public or more than ten persons is punishable by up to 3 years in prison or a fine."
+    },
+    "Section 118": {
+        "title": "Concealing design to commit offence punishable with death or life imprisonment",
+        "description": "Concealing a plan to commit an offense punishable with death or life imprisonment is punishable by up to 7 years if the offense occurs, or 3 years if it does not."
+    },
+    "Section 119": {
+        "title": "Public servant concealing design to commit an offence which it is his duty to prevent",
+        "description": "A public servant concealing a plan to commit an offense they must prevent faces up to half the punishment for the offense."
+    },
+    "Section 120": {
+        "title": "Concealing design to commit an offence punishable with imprisonment",
+        "description": "Concealing a design to commit an offense punishable with imprisonment carries a penalty of up to one-fourth of the longest imprisonment term."
+    },
+    "Section 120A": {
+        "title": "Definition of criminal conspiracy",
+        "description": "Criminal conspiracy is when two or more persons agree to commit an illegal act or a legal act by illegal means."
+    },
+    "Section 120B": {
+        "title": "Punishment of criminal conspiracy",
+        "description": "Punishment for criminal conspiracy depends on the offense conspired; if no specific punishment exists, the punishment is the same as for abetment."
+    },
+    "Section 121": {
+        "title": "Waging, or attempting to wage war against the Government of India",
+        "description": "Waging war or attempting to wage war against the Government of India is punishable by death or life imprisonment."
+    },
+    "Section 121A": {
+        "title": "Conspiracy to commit offences punishable by Section 121",
+        "description": "Conspiring to commit offenses under Section 121 carries imprisonment for life or up to 10 years."
+    },
+    "Section 122": {
+        "title": "Collecting arms with intent to wage war",
+        "description": "Collecting arms with intent to wage war against the Government of India carries life imprisonment or up to 10 years."
+    },
+    "Section 123": {
+        "title": "Concealing design to wage war",
+        "description": "Concealing a plan to wage war against the Government of India is punishable by up to 10 years in prison."
+    },
+    "Section 124": {
+        "title": "Assaulting President, Governor, etc., with intent to compel or restrain lawful power",
+        "description": "Assaulting the President or Governor to compel or restrain lawful power is punishable by up to 7 years in prison."
+    },
+    "Section 124A": {
+        "title": "Sedition",
+        "description": "Sedition\u2014bringing hatred, contempt, or disaffection towards the government by words, writing, or visible representation\u2014is punishable with life imprisonment or up to 3 years in prison."
+    },
+    "Section 125": {
+        "title": "Waging war against any Asiatic Power in alliance with India",
+        "description": "Waging war against an Asiatic Power allied with India carries life imprisonment or up to 7 years."
+    },
+    "Section 126": {
+        "title": "Committing depredation on territories of a Power at peace with India",
+        "description": "Depredation on the territory of a power at peace with India is punishable by up to 7 years in prison."
+    },
+    "Section 127": {
+        "title": "Receiving property taken by war or depredation",
+        "description": "Receiving property taken in war or depredation is punishable by up to 7 years in prison."
+    },
+    "Section 128": {
+        "title": "Public servant voluntarily allowing a State prisoner or war prisoner to escape",
+        "description": "A public servant voluntarily allowing a state or war prisoner to escape faces life imprisonment or up to 10 years."
+    },
+    "Section 129": {
+        "title": "Public servant negligently suffering such a prisoner to escape",
+        "description": "A public servant negligently allowing such a prisoner to escape is punishable by up to 3 years in prison."
+    },
+    "Section 130": {
+        "title": "Aiding escape of, rescuing, or harboring such prisoners",
+        "description": "Aiding the escape or harboring such prisoners carries life imprisonment or up to 10 years."
+    },
+    "Section 131": {
+        "title": "Abetting mutiny or attempting to seduce a soldier, sailor, or airman from duty",
+        "description": "Abetting mutiny or attempting to seduce a soldier, sailor, or airman from duty is punishable by life imprisonment or up to 10 years."
+    },
+    "Section 132": {
+        "title": "Abetment of mutiny, if mutiny is committed",
+        "description": "If mutiny is committed due to abetment, the punishment is death or life imprisonment."
+    },
+    "Section 133": {
+        "title": "Abetment of assault by soldier, sailor, or airman on a superior officer",
+        "description": "Abetting an assault by a soldier, sailor, or airman on a superior officer is punishable by up to 3 years."
+    },
+    "Section 134": {
+        "title": "Abetment of such assault, if the assault is committed",
+        "description": "If the assault is committed, the abettor faces up to 7 years in prison."
+    },
+    "Section 135": {
+        "title": "Abetment of desertion of soldier, sailor, or airman",
+        "description": "Abetting desertion by a soldier, sailor, or airman carries up to 2 years in prison."
+    },
+    "Section 136": {
+        "title": "Harbouring deserter",
+        "description": "Harboring a deserter is punishable by up to 2 years in prison."
+    },
+    "Section 137": {
+        "title": "Deserter concealed on board merchant vessel through negligence of master",
+        "description": "A master of a merchant vessel who negligently allows a deserter to be concealed is fined up to \u20b9500."
+    },
+    "Section 138": {
+        "title": "Abetment of act of insubordination by soldier, sailor, or airman",
+        "description": "Abetting insubordination by a soldier, sailor, or airman carries up to 6 months in prison."
+    },
+    "Section 138A": {
+        "title": "Application of foregoing sections to the Indian Marine Service",
+        "description": "This section applies to the Indian Marine Service."
+    },
+    "Section 139": {
+        "title": "Persons subject to certain Acts not to be punished under this Code",
+        "description": "Persons subject to certain military acts are not punished under this Code."
+    },
+    "Section 140": {
+        "title": "Wearing garb or carrying token used by soldier, sailor, or airman",
+        "description": "Wearing military garb or carrying a token of a soldier, sailor, or airman with intent to deceive carries up to 3 months in prison."
+    },
+    "Section 141": {
+        "title": "Unlawful assembly",
+        "description": "Unlawful assembly is when five or more persons gather for illegal purposes."
+    },
+    "Section 142": {
+        "title": "Being a member of an unlawful assembly",
+        "description": "A person is considered a member of an unlawful assembly if they knowingly join or continue in it."
+    },
+    "Section 143": {
+        "title": "Punishment for being a member of an unlawful assembly",
+        "description": "Being a member of an unlawful assembly is punishable by up to 6 months in prison."
+    },
+    "Section 144": {
+        "title": "Joining unlawful assembly armed with deadly weapon",
+        "description": "Joining an unlawful assembly armed with a deadly weapon carries up to 2 years in prison."
+    },
+    "Section 145": {
+        "title": "Joining or continuing in unlawful assembly knowing it has been commanded to disperse",
+        "description": "Joining or continuing in an unlawful assembly after it has been ordered to disperse is punishable by up to 2 years in prison."
+    },
+    "Section 146": {
+        "title": "Rioting",
+        "description": "Rioting involves using force or violence by an unlawful assembly."
+    },
+    "Section 147": {
+        "title": "Punishment for rioting",
+        "description": "Rioting is punishable by up to 2 years in prison."
+    },
+    "Section 148": {
+        "title": "Rioting, armed with deadly weapon",
+        "description": "Rioting while armed with a deadly weapon carries up to 3 years in prison."
+    },
+    "Section 149": {
+        "title": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+        "description": "Every member of an unlawful assembly is guilty of any offense committed in furtherance of its common object."
+    },
+    "Section 150": {
+        "title": "Hiring or conniving at hiring persons to join unlawful assembly",
+        "description": "Hiring or conniving at hiring persons to join an unlawful assembly is punishable as if they were a member of the assembly."
+    },
+    "Section 151": {
+        "title": "Knowingly joining or continuing in an assembly after it has been commanded to disperse",
+        "description": "Knowingly continuing in an unlawful assembly after it has been ordered to disperse is punishable by up to 6 months in prison."
+    },
+    "Section 152": {
+        "title": "Assaulting or obstructing public servant when suppressing riot",
+        "description": "Assaulting or obstructing a public servant suppressing a riot is punishable by up to 3 years in prison."
+    },
+    "Section 153": {
+        "title": "Wantonly giving provocation with intent to cause riot",
+        "description": "Provoking a riot is punishable by up to 1 year in prison; if a riot does not occur, the term is up to 6 months."
+    },
+    "Section 153A": {
+        "title": "153A. Promoting enmity between different groups on grounds of religion, race, etc.",
+        "description": "Promoting enmity between groups based on religion, race, or other factors, punishable by up to 3 years in prison (5 years if done in a place of worship)\u200b"
+    },
+    "Section 153AA": {
+        "title": "153B. Imputations, assertions prejudicial to national integration",
+        "description": "Carrying arms in a procession or public training, violating Section 144A, punishable by up to 6 months in prison and a fine\u200b"
+    },
+    "Section 153B": {
+        "title": "Punishment for knowingly carrying arms in any procession or organising, or holding or taking part in any mass drill or mass training with arms",
+        "description": "Making statements against a class of people suggesting they cannot uphold the Constitution, punishable by up to 3 years in prison (5 years if done in a place of worship)\u200b"
+    },
+    "Section 154": {
+        "title": "Owner or occupier of land on which unlawful assembly is held",
+        "description": "If an unlawful assembly or riot occurs, the owner or occupier of the land where it takes place must notify authorities and take measures to prevent or suppress it. Failure to do so can result in a fine."
+    },
+    "Section 155": {
+        "title": "Liability of person for whose benefit riot is committed",
+        "description": "If a riot benefits a person with an interest in the land, and they fail to prevent it, they are liable for a fine."
+    },
+    "Section 156": {
+        "title": "Liability of agent of owner or occupier for whose benefit riot is committed",
+        "description": "If an agent of the landowner benefits from a riot and does not take preventive action, they are also liable."
+    },
+    "Section 157": {
+        "title": "Harbouring persons hired for an unlawful assembly",
+        "description": "Harboring persons hired for an unlawful assembly is punishable with imprisonment or a fine."
+    },
+    "Section 158": {
+        "title": "Being hired to take part in unlawful assembly or riot",
+        "description": "Being hired to participate in an unlawful assembly or riot carries a penalty of imprisonment or a fine."
+    },
+    "Section 159": {
+        "title": "Affray",
+        "description": "Affray is when two or more people fight in a public place, disturbing public peace."
+    },
+    "Section 160": {
+        "title": "Punishment for committing affray",
+        "description": "Punishment for affray includes imprisonment or a fine."
+    },
+    "Section 161": {
+        "title": "Public servant taking illegal gratification   ",
+        "description": "  "
+    },
+    "Section 162": {
+        "title": "Taking gratification in order to influence public servant   ",
+        "description": "  "
+    },
+    "Section 163": {
+        "title": "Taking gratification for exercise of personal influence   ",
+        "description": "  "
+    },
+    "Section 164": {
+        "title": "Punishment for abetment by public servant of offences defined in Section 162 or 163   ",
+        "description": "  "
+    },
+    "Section 165": {
+        "title": "Public servant obtaining valuable thing without consideration   ",
+        "description": "  "
+    },
+    "Section 165A": {
+        "title": "Punishment for abetment of offences defined in Section 161 or 165   ",
+        "description": "  "
+    },
+    "Section 166": {
+        "title": "Public servant disobeying law, with intent to cause injury",
+        "description": "A public servant disobeying the law with intent to cause injury faces imprisonment, a fine, or both."
+    },
+    "Section 166A": {
+        "title": "166A. Public servant disobeying law, in relation to investigation of offences",
+        "description": "A public servant failing to record or act on certain serious offenses faces imprisonment and a fine."
+    },
+    "Section 166B": {
+        "title": "166B. Punishment for non-treatment of victim",
+        "description": "A hospital in charge failing to treat a victim in certain cases faces imprisonment, a fine, or both."
+    },
+    "Section 167": {
+        "title": "Public servant framing incorrect document with intent to cause injury",
+        "description": "A public servant who knowingly frames an incorrect document to cause injury faces imprisonment or a fine."
+    },
+    "Section 168": {
+        "title": "Public servant unlawfully engaging in trade",
+        "description": "A public servant unlawfully engaging in trade faces imprisonment or a fine."
+    },
+    "Section 169": {
+        "title": "Public servant unlawfully buying or bidding for property",
+        "description": "A public servant unlawfully buying or bidding for property faces imprisonment, a fine, and confiscation of the property."
+    },
+    "Section 170": {
+        "title": "Personating a public servant",
+        "description": "Personating a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 171": {
+        "title": "Wearing garb or carrying token used by public servant with fraudulent intent",
+        "description": "Wearing a uniform or carrying a token used by a public servant with fraudulent intent is punishable with imprisonment, a fine, or both."
+    },
+    "Section 171A": {
+        "title": "Definitions for offences against elections",
+        "description": "Defines terms related to election offenses, including bribery, undue influence, and personation."
+    },
+    "Section 171B": {
+        "title": "Bribery",
+        "description": "Giving or accepting a bribe to influence an election is punishable by imprisonment of up to 1 year, a fine, or both."
+    },
+    "Section 171C": {
+        "title": "Undue influence at elections",
+        "description": "Using coercion, threats, or undue influence to affect a voter\u2019s decision is punishable by imprisonment of up to 1 year, a fine, or both."
+    },
+    "Section 171D": {
+        "title": "Personation at elections",
+        "description": "Fraudulently voting in someone else\u2019s name or impersonating another voter is punishable by imprisonment of up to 1 year, a fine, or both."
+    },
+    "Section 171E": {
+        "title": "Punishment for bribery",
+        "description": "Punishment for bribery in elections includes imprisonment of up to 1 year, a fine, or both. If the bribe is a treat or entertainment, only a fine applies."
+    },
+    "Section 171F": {
+        "title": "Punishment for undue influence or personation at election",
+        "description": "Undue influence or personation at elections is punishable by imprisonment of up to 1 year, a fine, or both."
+    },
+    "Section 171G": {
+        "title": "False statement in connection with an election",
+        "description": "Publishing false statements about a candidate\u2019s character or conduct to influence an election is punishable by a fine."
+    },
+    "Section 171H": {
+        "title": "Illegal payments in connection with an election",
+        "description": "Incurring election expenses beyond the legal limit or failing to report them is punishable by a fine."
+    },
+    "Section 171I": {
+        "title": "Failure to keep election accounts",
+        "description": "Failure to keep proper election accounts as required by law is punishable by a fine."
+    },
+    "Section 172": {
+        "title": "Absconding to avoid service of summons or other proceeding",
+        "description": "Absconding to avoid service of a summons or legal process carries a penalty of imprisonment, a fine, or both."
+    },
+    "Section 173": {
+        "title": "Preventing service of summons or other proceeding",
+        "description": "Preventing the service of a summons carries the same penalty as Section 172."
+    },
+    "Section 174": {
+        "title": "Non-attendance in obedience to summons",
+        "description": "Non-attendance in obedience to a summons carries a fine or imprisonment."
+    },
+    "Section 174A": {
+        "title": "Non-appearance in response to a proclamation",
+        "description": "Non-appearance in response to a proclamation carries imprisonment and a fine."
+    },
+    "Section 175": {
+        "title": "Omission to produce document to public servant",
+        "description": "Omission to produce documents to a public servant carries imprisonment or a fine."
+    },
+    "Section 176": {
+        "title": "Omission to give notice or information to public servant",
+        "description": "Omission to give notice or information to a public servant carries imprisonment or a fine."
+    },
+    "Section 177": {
+        "title": "Furnishing false information",
+        "description": "Furnishing false information to a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 178": {
+        "title": "Refusing oath or affirmation when duly required by public servant",
+        "description": "Refusing to take an oath or affirmation when required by a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 179": {
+        "title": "Refusing to answer public servant authorized to question",
+        "description": "Refusing to answer a public servant authorized to question carries imprisonment, a fine, or both."
+    },
+    "Section 180": {
+        "title": "Refusing to sign statement",
+        "description": "Refusing to sign a statement carries imprisonment, a fine, or both."
+    },
+    "Section 181": {
+        "title": "False statement on oath to public servant",
+        "description": "Making a false statement on oath to a public servant carries imprisonment and a fine."
+    },
+    "Section 182": {
+        "title": "False information with intent to cause public servant to use lawful power to injury of another person",
+        "description": "Providing false information to a public servant to cause harm to another carries imprisonment, a fine, or both."
+    },
+    "Section 183": {
+        "title": "Resistance to lawful apprehension",
+        "description": "Resistance to lawful apprehension carries imprisonment, a fine, or both."
+    },
+    "Section 184": {
+        "title": "Obstructing sale of property offered for sale by authority of public servant",
+        "description": "Obstructing the sale of property offered for sale by a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 185": {
+        "title": "Illegal purchase or bid for property offered for sale by authority of public servant",
+        "description": "Illegal purchase or bid for property offered for sale by a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 186": {
+        "title": "Obstructing public servant in discharge of public functions",
+        "description": "Obstructing a public servant in discharge of public functions carries imprisonment, a fine, or both."
+    },
+    "Section 187": {
+        "title": "Omission to assist public servant when bound by law",
+        "description": "Omission to assist a public servant when legally bound to do so carries imprisonment, a fine, or both."
+    },
+    "Section 188": {
+        "title": "Disobedience to order duly promulgated by public servant",
+        "description": "Disobedience to an order duly promulgated by a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 189": {
+        "title": "Threat of injury to public servant",
+        "description": "Threat of injury to a public servant carries imprisonment, a fine, or both."
+    },
+    "Section 190": {
+        "title": "Threat of injury to induce a person to refrain from applying for protection to public servant",
+        "description": "Threat of injury to induce a person to refrain from applying for protection carries imprisonment, a fine, or both."
+    },
+    "Section 191": {
+        "title": "Giving false evidence",
+        "description": "Giving false evidence carries imprisonment and a fine."
+    },
+    "Section 192": {
+        "title": "Fabricating false evidence",
+        "description": "Fabricating false evidence carries imprisonment and a fine."
+    },
+    "Section 193": {
+        "title": "Punishment for false evidence",
+        "description": "Punishment for false evidence includes imprisonment and a fine."
+    },
+    "Section 194": {
+        "title": "Giving or fabricating false evidence with intent to procure conviction of capital offence",
+        "description": "Giving or fabricating false evidence with intent to procure conviction of a capital offense is punishable by death or life imprisonment."
+    },
+    "Section 195": {
+        "title": "Giving or fabricating false evidence with intent to procure conviction of an offence punishable with life imprisonment",
+        "description": "Giving or fabricating false evidence with intent to procure conviction of an offense punishable with life imprisonment carries a severe punishment."
+    },
+    "Section 195A": {
+        "title": "Threatening any person to give false evidence",
+        "description": "Threatening a person to give false evidence carries imprisonment and a fine."
+    },
+    "Section 196": {
+        "title": "Using evidence known to be false",
+        "description": "Using evidence known to be false is punishable with imprisonment or a fine."
+    },
+    "Section 197": {
+        "title": "Issuing or signing false certificate",
+        "description": "Issuing or signing a false certificate is punishable with imprisonment or a fine."
+    },
+    "Section 198": {
+        "title": "Using as true a certificate known to be false",
+        "description": "Using a certificate as true while knowing it to be false is punishable with imprisonment or a fine."
+    },
+    "Section 199": {
+        "title": "False statement made in declaration",
+        "description": "Making a false statement in a declaration legally required as evidence is punishable with imprisonment or a fine."
+    },
+    "Section 200": {
+        "title": "Using as true such declaration known to be false",
+        "description": "Using a false declaration as true, knowing it to be false, is punishable with imprisonment or a fine."
+    },
+    "Section 201": {
+        "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+        "description": "Hiding or destroying evidence to protect an offender is punishable based on the severity of the crime."
+    },
+    "Section 202": {
+        "title": "Intentional omission to give information of offence by person bound to inform",
+        "description": "Failing to report a known offense is punishable by imprisonment or fine."
+    },
+    "Section 203": {
+        "title": "Giving false information respecting an offence committed",
+        "description": "Providing false information about a committed offense is punishable by imprisonment or fine."
+    },
+    "Section 204": {
+        "title": "Destruction of document or electronic record to prevent its production as evidence",
+        "description": "Destroying a document or electronic record to prevent its use as evidence is punishable by imprisonment or fine."
+    },
+    "Section 205": {
+        "title": "False personation for purpose of act or proceeding in suit or prosecution",
+        "description": "Falsely assuming another identity for legal proceedings is punishable by imprisonment or fine."
+    },
+    "Section 206": {
+        "title": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution",
+        "description": "Hiding or transferring property to avoid legal seizure is punishable by imprisonment or fine."
+    },
+    "Section 207": {
+        "title": "Fraudulent claim to property to prevent its seizure as forfeited or in execution",
+        "description": "Fraudulently claiming property to prevent lawful seizure is punishable by imprisonment or fine."
+    },
+    "Section 208": {
+        "title": "Fraudulently suffering decree for sum not due",
+        "description": "Allowing a fraudulent decree for an amount not due is punishable by imprisonment or fine."
+    },
+    "Section 209": {
+        "title": "Dishonestly making false claim in Court",
+        "description": "Making a false claim in court with intent to deceive is punishable by imprisonment or fine."
+    },
+    "Section 210": {
+        "title": "Fraudulently obtaining decree for sum not due",
+        "description": "Fraudulently obtaining a decree for an amount not due is punishable by imprisonment or fine."
+    },
+    "Section 211": {
+        "title": "False charge of offence made with intent to injure",
+        "description": "Filing false charges to harm someone is punishable by imprisonment or fine."
+    },
+    "Section 212": {
+        "title": "Harbouring offender",
+        "description": "Hiding an offender to prevent their arrest is punishable based on the crime committed."
+    },
+    "Section 213": {
+        "title": "Taking gift, etc., to screen an offender from punishment",
+        "description": "Accepting gifts to conceal an offense is punishable by imprisonment or fine."
+    },
+    "Section 214": {
+        "title": "Offering gift or restoration of property in consideration of screening offender",
+        "description": "Offering a gift to hide an offense is punishable by imprisonment or fine."
+    },
+    "Section 215": {
+        "title": "Taking gift to help to recover stolen property, etc.",
+        "description": "Accepting gifts to help recover stolen property without reporting the offender is punishable by imprisonment or fine."
+    },
+    "Section 216": {
+        "title": "Harbouring offender who has escaped from custody or whose apprehension has been ordered",
+        "description": "Hiding a fugitive is punishable based on the severity of their offense."
+    },
+    "Section 216A": {
+        "title": "Penalty for harbouring robbers or dacoits",
+        "description": "Harboring robbers or dacoits is punishable by imprisonment and fine."
+    },
+    "Section 216B": {
+        "title": "Definition of \u201charbour\u201d in sections 212, 216 and 216A",
+        "description": "\"Harbour\" refers to providing shelter, food, money, assistance, or any means to evade arrest, as mentioned in Sections 212, 216, and 216A."
+    },
+    "Section 217": {
+        "title": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture",
+        "description": "A public servant disobeying the law to protect a person or property is punishable by imprisonment or fine."
+    },
+    "Section 218": {
+        "title": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture",
+        "description": "A public servant creating a false record to protect someone is punishable by imprisonment or fine."
+    },
+    "Section 219": {
+        "title": "Public servant in judicial proceeding corruptly making report, etc., contrary to law",
+        "description": "A public servant making a false report in a judicial proceeding is punishable by imprisonment or fine."
+    },
+    "Section 220": {
+        "title": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law",
+        "description": "Wrongfully confining or committing a person to trial while knowing it is unlawful is punishable by imprisonment or fine."
+    },
+    "Section 221": {
+        "title": "Intentional omission to apprehend on the part of public servant bound to apprehend",
+        "description": "A public servant intentionally failing to arrest a person is punishable by imprisonment or fine."
+    },
+    "Section 222": {
+        "title": "Intentional omission to apprehend on the part of public servant bound to apprehend person under sentence or lawfully committed",
+        "description": "A public servant allowing an imprisoned person to escape is punishable by imprisonment or fine."
+    },
+    "Section 223": {
+        "title": "Escape from confinement or custody negligently suffered by public servant",
+        "description": "A public servant negligently allowing a prisoner to escape is punishable by imprisonment or fine."
+    },
+    "Section 224": {
+        "title": "Resistance or obstruction by a person to his lawful apprehension",
+        "description": "Resisting or escaping from lawful custody is punishable by imprisonment or fine."
+    },
+    "Section 225": {
+        "title": "Resistance or obstruction to lawful apprehension of another person",
+        "description": "Resisting or preventing someone\u2019s lawful arrest is punishable by imprisonment or fine."
+    },
+    "Section 225A": {
+        "title": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for",
+        "description": "A public servant failing to arrest or allowing escape is punishable by imprisonment or fine."
+    },
+    "Section 225B": {
+        "title": "Resistance or obstruction to lawful apprehension, or escape or rescue in cases not otherwise provided for",
+        "description": "Resisting arrest or escaping custody in unspecified cases is punishable by imprisonment or fine."
+    },
+    "Section 226": {
+        "title": "Unlawful return from transportation   ",
+        "description": "  "
+    },
+    "Section 227": {
+        "title": "Violation of condition of remission of punishment",
+        "description": "Violating conditions of remission leads to serving the original punishment."
+    },
+    "Section 228": {
+        "title": "Intentional insult or interruption to public servant sitting in judicial proceeding",
+        "description": "Insulting or interrupting a public servant during judicial proceedings is punishable by imprisonment or fine."
+    },
+    "Section 228A": {
+        "title": "Disclosure of identity of the victim of certain offences etc.",
+        "description": "Revealing the identity of victims of certain offenses is punishable by imprisonment and fine."
+    },
+    "Section 229": {
+        "title": "Personation of a juror or assessor",
+        "description": "Impersonating a juror or assessor is punishable by imprisonment or fine."
+    },
+    "Section 229A": {
+        "title": "Failure by person released on bail or bond to appear in Court",
+        "description": "Failing to appear in court after being released on bail is punishable by imprisonment or fine."
+    },
+    "Section 230": {
+        "title": "Coin defined",
+        "description": "Coin is metal issued by a government for use as money."
+    },
+    "Section 231": {
+        "title": "Counterfeiting coin",
+        "description": "Counterfeiting coins is punishable by imprisonment and fine."
+    },
+    "Section 232": {
+        "title": "Counterfeiting Indian coin",
+        "description": "Counterfeiting Indian coins is punishable by life imprisonment or fine."
+    },
+    "Section 233": {
+        "title": "Making or selling instrument for counterfeiting coin",
+        "description": "Making or selling tools for counterfeiting coins is punishable by imprisonment and fine."
+    },
+    "Section 234": {
+        "title": "Making or selling instrument for counterfeiting Indian coin",
+        "description": "Making or selling tools for counterfeiting Indian coins is punishable by imprisonment and fine."
+    },
+    "Section 235": {
+        "title": "Possession of instrument, or material for the purpose of using the same for counterfeiting coin",
+        "description": "Possessing tools for counterfeiting coins is punishable by imprisonment and fine."
+    },
+    "Section 236": {
+        "title": "Abetting in India the counterfeiting out of India of coin",
+        "description": "Aiding counterfeiting of coins outside India is punishable as if done in India."
+    },
+    "Section 237": {
+        "title": "Import or export of counterfeit coin",
+        "description": "Importing or exporting counterfeit coins is punishable by imprisonment and fine."
+    },
+    "Section 238": {
+        "title": "Import or export of counterfeits of the Indian coin",
+        "description": "Importing or exporting counterfeit Indian coins is punishable by life imprisonment or fine."
+    },
+    "Section 239": {
+        "title": "Delivery of coin, possessed with knowledge that it is counterfeit",
+        "description": "Passing counterfeit coins as genuine is punishable by imprisonment and fine."
+    },
+    "Section 240": {
+        "title": "Delivery of Indian coin, possessed with knowledge that it is counterfeit",
+        "description": "Passing counterfeit Indian coins as genuine is punishable by imprisonment and fine."
+    },
+    "Section 241": {
+        "title": "Delivery of coin as genuine, which, when first possessed, the deliverer did not know to be counterfeit",
+        "description": "Delivering counterfeit coins unknowingly but later discovering their nature is punishable by imprisonment or fine."
+    },
+    "Section 242": {
+        "title": "Possession of counterfeit coin by person who knew it to be counterfeit when he became possessed thereof",
+        "description": "Possessing counterfeit coins with fraudulent intent is punishable by imprisonment and fine."
+    },
+    "Section 243": {
+        "title": "Possession of Indian coin by person who knew it to be counterfeit when he became possessed thereof",
+        "description": "Possessing counterfeit Indian coins with fraudulent intent is punishable by imprisonment and fine."
+    },
+    "Section 244": {
+        "title": "Person employed in mint causing coin to be of different weight or composition from that fixed by law",
+        "description": "A mint employee issuing defective coins is punishable by imprisonment and fine."
+    },
+    "Section 245": {
+        "title": "Unlawfully taking coining instrument from mint",
+        "description": "Taking a coining tool from a mint without authority is punishable by imprisonment and fine."
+    },
+    "Section 246": {
+        "title": "Fraudulently or dishonestly diminishing weight or altering composition of coin",
+        "description": "Fraudulently reducing the weight or altering the composition of a coin is punishable by imprisonment and fine."
+    },
+    "Section 247": {
+        "title": "Fraudulently or dishonestly diminishing weight or altering composition of Indian coin",
+        "description": "Fraudulently altering an Indian coin is punishable by imprisonment and fine."
+    },
+    "Section 248": {
+        "title": "Altering appearance of coin with intent that it shall pass as coin of different description",
+        "description": "Changing the appearance of a coin to pass it as a different one is punishable by imprisonment and fine."
+    },
+    "Section 249": {
+        "title": "Altering appearance of Indian coin with intent that it shall pass as coin of different description",
+        "description": "Changing the appearance of an Indian coin to pass it as a different one is punishable by imprisonment and fine."
+    },
+    "Section 250": {
+        "title": "Delivery of coin, possessed with knowledge that it is altered",
+        "description": "Passing altered coins knowing their condition is punishable by imprisonment and fine."
+    },
+    "Section 251": {
+        "title": "Delivery of Indian coin, possessed with knowledge that it is altered",
+        "description": "Passing altered Indian coins knowing their condition is punishable by imprisonment and fine."
+    },
+    "Section 252": {
+        "title": "Possession of coin by person who knew it to be altered when he became possessed thereof",
+        "description": "Possessing altered coins with fraudulent intent is punishable by imprisonment and fine."
+    },
+    "Section 253": {
+        "title": "Possession of Indian coin by person who knew it to be altered when he became possessed thereof",
+        "description": "Possessing altered Indian coins with fraudulent intent is punishable by imprisonment and fine."
+    },
+    "Section 254": {
+        "title": "Delivery of coin as genuine, which, when first possessed, the deliverer did not know to be altered",
+        "description": "Delivering a coin as genuine while not initially knowing it was altered is punishable by imprisonment or fine."
+    },
+    "Section 255": {
+        "title": "Counterfeiting Government stamp",
+        "description": "Counterfeiting government stamps is punishable by life imprisonment or fine."
+    },
+    "Section 256": {
+        "title": "Having possession of instrument or material for counterfeiting Government stamp",
+        "description": "Possessing tools to counterfeit government stamps is punishable by imprisonment and fine."
+    },
+    "Section 257": {
+        "title": "Making or selling instrument for counterfeiting Government stamp",
+        "description": "Making or selling tools for counterfeiting government stamps is punishable by imprisonment and fine."
+    },
+    "Section 258": {
+        "title": "Sale of counterfeit Government stamp",
+        "description": "Selling counterfeit government stamps is punishable by imprisonment and fine."
+    },
+    "Section 259": {
+        "title": "Having possession of counterfeit Government stamp",
+        "description": "Possessing counterfeit government stamps is punishable by imprisonment and fine."
+    },
+    "Section 260": {
+        "title": "Using as genuine a Government stamp known to be counterfeit",
+        "description": "Using a known counterfeit government stamp is punishable by imprisonment and fine."
+    },
+    "Section 261": {
+        "title": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss",
+        "description": "Removing a stamp from a document or erasing its writing to cause loss is punishable by imprisonment and fine."
+    },
+    "Section 262": {
+        "title": "Using Government stamp known to have been before used",
+        "description": "Using a previously used government stamp is punishable by imprisonment and fine."
+    },
+    "Section 263": {
+        "title": "Erasure of mark denoting that stamp has been used",
+        "description": "Erasing a stamp's mark to reuse it is punishable by imprisonment and fine."
+    },
+    "Section 263A": {
+        "title": "Prohibition of fictitious stamps",
+        "description": "Using or possessing fictitious stamps is punishable by imprisonment and fine."
+    },
+    "Section 264": {
+        "title": "Fraudulent use of false instrument for weighing",
+        "description": "Fraudulently using a false instrument for weighing is punishable by imprisonment and fine."
+    },
+    "Section 265": {
+        "title": "Fraudulent use of false weight or measure",
+        "description": "Fraudulently using a false weight or measure is punishable by imprisonment and fine."
+    },
+    "Section 266": {
+        "title": "Being in possession of false weight or measure",
+        "description": "Possessing a false weight or measure is punishable by imprisonment and fine."
+    },
+    "Section 267": {
+        "title": "Making or selling false weight or measure",
+        "description": "Making or selling a false weight or measure is punishable by imprisonment and fine."
+    },
+    "Section 268": {
+        "title": "Public nuisance",
+        "description": "Creating a public nuisance is punishable under general provisions."
+    },
+    "Section 269": {
+        "title": "Negligent act likely to spread infection of disease dangerous to life",
+        "description": "Negligent acts spreading infectious diseases are punishable by imprisonment or fine."
+    },
+    "Section 270": {
+        "title": "Malignant act likely to spread infection of disease dangerous to life",
+        "description": "Malicious acts spreading infectious diseases are punishable by imprisonment or fine."
+    },
+    "Section 271": {
+        "title": "Disobedience to quarantine rule",
+        "description": "Disobeying a quarantine rule is punishable by imprisonment or fine."
+    },
+    "Section 272": {
+        "title": "Adulteration of food or drink intended for sale",
+        "description": "Adulterating food or drink for sale is punishable by imprisonment and fine."
+    },
+    "Section 273": {
+        "title": "Sale of noxious food or drink",
+        "description": "Selling harmful food or drink is punishable by imprisonment and fine."
+    },
+    "Section 274": {
+        "title": "Adulteration of drugs",
+        "description": "Adulterating drugs is punishable by imprisonment and fine."
+    },
+    "Section 275": {
+        "title": "Sale of adulterated drugs",
+        "description": "Selling adulterated drugs is punishable by imprisonment and fine."
+    },
+    "Section 276": {
+        "title": "Sale of drug as a different drug or preparation",
+        "description": "Selling a drug as another drug is punishable by imprisonment and fine."
+    },
+    "Section 277": {
+        "title": "Fouling water of public spring or reservoir",
+        "description": "Polluting a public water source is punishable by imprisonment and fine."
+    },
+    "Section 278": {
+        "title": "Making atmosphere noxious to health",
+        "description": "Making the atmosphere harmful to health is punishable by fine."
+    },
+    "Section 279": {
+        "title": "Rash driving or riding on a public way",
+        "description": "Rash driving on a public road is punishable by imprisonment or fine."
+    },
+    "Section 280": {
+        "title": "Rash navigation of vessel",
+        "description": "Rash navigation of a vessel is punishable by imprisonment or fine."
+    },
+    "Section 281": {
+        "title": "Exhibition of false light, mark or buoy",
+        "description": "Exhibiting false lights or signals to mislead vessels is punishable by imprisonment or fine."
+    },
+    "Section 282": {
+        "title": "Conveying person by water for hire in unsafe or overloaded vessel",
+        "description": "Transporting people in an unsafe or overloaded vessel is punishable by imprisonment or fine."
+    },
+    "Section 283": {
+        "title": "Danger or obstruction in public way or line of navigation",
+        "description": "Creating danger or obstruction in a public way is punishable by fine."
+    },
+    "Section 284": {
+        "title": "Negligent conduct with respect to poisonous substance",
+        "description": "Negligently handling poison is punishable by imprisonment or fine."
+    },
+    "Section 285": {
+        "title": "Negligent conduct with respect to fire or combustible matter",
+        "description": "Negligently handling fire or combustible materials is punishable by imprisonment or fine."
+    },
+    "Section 286": {
+        "title": "Negligent conduct with respect to explosive substance",
+        "description": "Negligently handling explosives is punishable by imprisonment or fine."
+    },
+    "Section 287": {
+        "title": "Negligent conduct with respect to machinery",
+        "description": "Negligently handling machinery is punishable by imprisonment or fine."
+    },
+    "Section 288": {
+        "title": "Negligent conduct with respect to pulling down or repairing buildings",
+        "description": "Negligently handling construction work is punishable by imprisonment or fine."
+    },
+    "Section 289": {
+        "title": "Negligent conduct with respect to animal",
+        "description": "Negligently handling animals is punishable by imprisonment or fine."
+    },
+    "Section 290": {
+        "title": "Punishment for public nuisance in cases not otherwise provided for",
+        "description": "Causing a public nuisance is punishable by fine."
+    },
+    "Section 291": {
+        "title": "Continuance of nuisance",
+        "description": "Continuing a nuisance after an injunction is punishable by imprisonment or fine."
+    },
+    "Section 292": {
+        "title": "Sale, etc., of obscene books, etc.",
+        "description": "Selling or distributing obscene books is punishable by imprisonment and fine."
+    },
+    "Section 293": {
+        "title": "Sale, etc., of obscene objects to young persons",
+        "description": "Selling obscene material to minors is punishable by imprisonment and fine."
+    },
+    "Section 294": {
+        "title": "Obscene acts and songs",
+        "description": "Performing obscene acts or singing obscene songs in public is punishable by imprisonment or fine."
+    },
+    "Section 294A": {
+        "title": "Keeping a lottery office",
+        "description": "Keeping a lottery office for unauthorized lotteries is punishable by imprisonment of up to 6 months, a fine, or both."
+    },
+    "Section 295": {
+        "title": "Injuring or defiling place of worship with intent to insult the religion of any class",
+        "description": "Destroying, damaging, or defiling a place of worship or a sacred object with intent to insult a religion is punishable by imprisonment of up to 2 years, a fine, or both."
+    },
+    "Section 295A": {
+        "title": "Deliberate and malicious acts intended to outrage religious feelings of any class by insulting its religion or religious beliefs",
+        "description": "Deliberate and malicious acts intended to outrage religious feelings by insulting religion or religious beliefs, by words, writing, or any visible representation, are punishable by imprisonment of up to 3 years, a fine, or both."
+    },
+    "Section 296": {
+        "title": "Disturbing religious assembly",
+        "description": "Disturbing a religious assembly is punishable by imprisonment or fine."
+    },
+    "Section 297": {
+        "title": "Trespassing on burial places, etc.",
+        "description": "Trespassing on burial sites is punishable by imprisonment or fine."
+    },
+    "Section 298": {
+        "title": "Uttering, words, etc., with deliberate intent to wound religious feelings",
+        "description": "Insulting religious beliefs intentionally is punishable by imprisonment or fine."
+    },
+    "Section 299": {
+        "title": "Culpable homicide",
+        "description": "Culpable homicide involves causing death with intent or knowledge."
+    },
+    "Section 300": {
+        "title": "Murder",
+        "description": "Murder is an aggravated form of culpable homicide."
+    },
+    "Section 301": {
+        "title": "Culpable homicide by causing death of person other than person whose death was intended",
+        "description": "Causing the death of an unintended victim is still homicide."
+    },
+    "Section 302": {
+        "title": "Punishment for murder",
+        "description": "Murder is punishable by death or life imprisonment."
+    },
+    "Section 303": {
+        "title": "Punishment for murder by a life convict   ",
+        "description": "Whoever, being under a sentence of life imprisonment, commits murder, shall be punished with death.   "
+    },
+    "Section 304": {
+        "title": "Punishment for culpable homicide not amounting to murder",
+        "description": "Whoever commits culpable homicide not amounting to murder shall be punished with life imprisonment or imprisonment up to ten years and a fine if the act was done with intent, or imprisonment up to ten years or a fine if done with knowledge but without intent."
+    },
+    "Section 304A": {
+        "title": "Causing death by negligence",
+        "description": "Whoever causes death by a rash or negligent act not amounting to culpable homicide shall be punished with imprisonment up to two years or a fine or both."
+    },
+    "Section 304B": {
+        "title": "Dowry death",
+        "description": "If a woman dies under unnatural circumstances within seven years of marriage and has been subjected to cruelty or harassment related to dowry, her husband or relatives are deemed responsible and punished with imprisonment of seven years to life."
+    },
+    "Section 305": {
+        "title": "Abetment of suicide of child or insane person",
+        "description": "Abetting the suicide of a minor, insane, intoxicated, or delirious person shall be punishable with death, life imprisonment, or imprisonment up to ten years with a fine."
+    },
+    "Section 306": {
+        "title": "Abetment of suicide",
+        "description": "Abetting suicide is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 307": {
+        "title": "Attempt to murder",
+        "description": "Attempt to murder with intent or knowledge shall be punishable with imprisonment up to ten years and a fine. If hurt is caused, imprisonment for life may be imposed. If attempted by a life convict, the punishment may be death."
+    },
+    "Section 308": {
+        "title": "Attempt to commit culpable homicide",
+        "description": "Attempt to commit culpable homicide not amounting to murder is punishable with imprisonment up to three years or fine, and if hurt is caused, imprisonment up to seven years or fine."
+    },
+    "Section 309": {
+        "title": "Attempt to commit suicide",
+        "description": "Attempting suicide is punishable with simple imprisonment up to one year or fine or both."
+    },
+    "Section 310": {
+        "title": "Thug",
+        "description": "A thug is a person habitually associated with robbery or child-stealing accompanied by murder."
+    },
+    "Section 311": {
+        "title": "Punishment for thug",
+        "description": "A thug shall be punished with life imprisonment and a fine."
+    },
+    "Section 312": {
+        "title": "Causing miscarriage",
+        "description": "Voluntarily causing miscarriage, unless done in good faith to save the woman\u2019s life, is punishable with imprisonment up to three years or fine or both. If the woman is quick with child, imprisonment may extend to seven years."
+    },
+    "Section 313": {
+        "title": "Causing miscarriage without woman\u2019s consent",
+        "description": "Causing miscarriage without a woman\u2019s consent is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 314": {
+        "title": "Death caused by act done with intent to cause miscarriage",
+        "description": "Causing a woman\u2019s death while attempting miscarriage shall be punished with imprisonment up to ten years and a fine. If done without her consent, imprisonment for life may be imposed."
+    },
+    "Section 315": {
+        "title": "Act done with intent to prevent child being born alive or to cause it to die after birth",
+        "description": "An act done before birth intending to prevent the child\u2019s birth or cause its death after birth, unless done to save the mother\u2019s life, is punishable with imprisonment up to ten years or a fine or both."
+    },
+    "Section 316": {
+        "title": "Causing death of quick unborn child by act amounting to culpable homicide",
+        "description": "Causing the death of a quick unborn child by an act amounting to culpable homicide is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 317": {
+        "title": "Exposure and abandonment of child under twelve years, by parent or person having care of it",
+        "description": "A parent or guardian exposing or abandoning a child under twelve years with intent to abandon shall be punished with imprisonment up to seven years or a fine or both."
+    },
+    "Section 318": {
+        "title": "Concealment of birth by secret disposal of dead body",
+        "description": "Secretly disposing of a child\u2019s dead body to conceal its birth is punishable with imprisonment up to two years or a fine or both."
+    },
+    "Section 319": {
+        "title": "Hurt",
+        "description": "Causing bodily pain, disease, or infirmity constitutes hurt."
+    },
+    "Section 320": {
+        "title": "Grievous hurt",
+        "description": "Certain injuries like emasculation, loss of sight, hearing, limb, joint, or serious bodily pain for over twenty days constitute grievous hurt."
+    },
+    "Section 321": {
+        "title": "Voluntarily causing hurt",
+        "description": "Voluntarily causing hurt is knowingly or intentionally causing bodily harm."
+    },
+    "Section 322": {
+        "title": "Voluntarily causing grievous hurt",
+        "description": "Voluntarily causing grievous hurt involves intentional or known likelihood of causing serious injury."
+    },
+    "Section 323": {
+        "title": "Punishment for voluntarily causing hurt",
+        "description": "Voluntarily causing hurt is punishable with imprisonment up to one year or fine up to Rs. 1000 or both."
+    },
+    "Section 324": {
+        "title": "Voluntarily causing hurt by dangerous weapons or means",
+        "description": "Voluntarily causing hurt by dangerous weapons or means is punishable with imprisonment up to three years or a fine or both."
+    },
+    "Section 325": {
+        "title": "Punishment for voluntarily causing grievous hurt",
+        "description": "Voluntarily causing grievous hurt is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 326": {
+        "title": "Voluntarily causing grievous hurt by dangerous weapons or means",
+        "description": "Voluntarily causing grievous hurt by dangerous weapons or means is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 326A": {
+        "title": "Voluntarily causing grievous hurt by use of acid",
+        "description": "Causing permanent damage, deformity, burns, or disfigurement by acid attack is punishable with imprisonment of ten years to life and a fine."
+    },
+    "Section 326B": {
+        "title": "Voluntarily throwing or attempting to throw acid",
+        "description": "Attempting an acid attack is punishable with imprisonment of five to seven years and a fine."
+    },
+    "Section 327": {
+        "title": "Voluntarily causing hurt to extort property or to constrain to an illegal act",
+        "description": "Causing hurt to extort property or constrain to an illegal act is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 328": {
+        "title": "Causing hurt by means of poison, etc., with intent to commit an offence",
+        "description": "Administering poison or harmful substances to cause hurt or facilitate an offense is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 329": {
+        "title": "Voluntarily causing grievous hurt to extort property, or to constrain to an illegal act",
+        "description": "Causing grievous hurt to extort property or constrain to an illegal act is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 330": {
+        "title": "Voluntarily causing hurt to extort confession, or to compel restoration of property",
+        "description": "Causing hurt to extort confession or compel restoration of property is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 331": {
+        "title": "Voluntarily causing grievous hurt to extort confession, or to compel restoration of property",
+        "description": "Causing grievous hurt to extort confession or compel restoration of property is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 332": {
+        "title": "Voluntarily causing hurt to deter public servant from duty",
+        "description": "Causing hurt to deter a public servant from duty is punishable with imprisonment up to three years or a fine or both."
+    },
+    "Section 333": {
+        "title": "Voluntarily causing grievous hurt to deter public servant from duty",
+        "description": "Causing grievous hurt to deter a public servant from duty is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 334": {
+        "title": "Voluntarily causing hurt on provocation",
+        "description": "Causing hurt on provocation is punishable with imprisonment up to one month or a fine up to Rs. 500 or both."
+    },
+    "Section 335": {
+        "title": "Voluntarily causing grievous hurt on provocation",
+        "description": "Causing grievous hurt on provocation is punishable with imprisonment up to four years or a fine up to Rs. 2000 or both."
+    },
+    "Section 336": {
+        "title": "Act endangering life or personal safety of others",
+        "description": "Doing any act so rashly or negligently as to endanger life or personal safety is punishable with imprisonment up to three months or a fine or both."
+    },
+    "Section 337": {
+        "title": "Causing hurt by act endangering life or personal safety of others",
+        "description": "Causing hurt by endangering life or personal safety is punishable with imprisonment up to six months or a fine or both."
+    },
+    "Section 338": {
+        "title": "Causing grievous hurt by act endangering life or personal safety of others",
+        "description": "Causing grievous hurt by endangering life or personal safety is punishable with imprisonment up to two years or a fine or both."
+    },
+    "Section 339": {
+        "title": "Wrongful restraint",
+        "description": "Wrongful restraint is obstructing someone from moving in a direction they have the right to proceed."
+    },
+    "Section 340": {
+        "title": "Wrongful confinement",
+        "description": "Wrongful confinement is wrongfully restraining someone within a circumscribed space."
+    },
+    "Section 341": {
+        "title": "Punishment for wrongful restraint",
+        "description": "Wrongful restraint is punishable with imprisonment up to one month or a fine up to Rs. 500 or both."
+    },
+    "Section 342": {
+        "title": "Punishment for wrongful confinement",
+        "description": "Wrongful confinement is punishable with imprisonment up to one year or a fine up to Rs. 1000 or both."
+    },
+    "Section 343": {
+        "title": "Wrongful confinement for three or more days",
+        "description": "Wrongful confinement for three or more days is punishable with imprisonment up to two years or a fine or both."
+    },
+    "Section 344": {
+        "title": "Wrongful confinement for ten or more days",
+        "description": "Wrongful confinement for ten or more days is punishable with imprisonment up to three years and a fine."
+    },
+    "Section 345": {
+        "title": "Wrongful confinement of person for whose liberation writ has been issued",
+        "description": "Wrongful confinement of a person for whose release a writ has been issued is punishable with imprisonment up to two years in addition to other punishment."
+    },
+    "Section 346": {
+        "title": "Wrongful confinement in secret",
+        "description": "Wrongfully confining a person in secret to prevent their location from being discovered is punishable with imprisonment up to two years in addition to any other punishment for wrongful confinement."
+    },
+    "Section 347": {
+        "title": "Wrongful confinement to extort property, or constrain to illegal act",
+        "description": "Wrongfully confining a person to extort property, security, or force them to do something illegal is punishable with imprisonment up to three years and a fine."
+    },
+    "Section 348": {
+        "title": "Wrongful confinement to extort confession, or compel restoration of property",
+        "description": "Wrongfully confining a person to extort a confession, information, or to force them to restore property is punishable with imprisonment up to three years and a fine."
+    },
+    "Section 349": {
+        "title": "Force",
+        "description": "Force refers to causing motion, change in motion, or cessation of motion to a person or an object they are in contact with, using bodily power, an object, or an animal."
+    },
+    "Section 350": {
+        "title": "Criminal force",
+        "description": "Criminal force is intentionally using force on a person without their consent to commit an offense or cause fear, injury, or annoyance."
+    },
+    "Section 351": {
+        "title": "Assault",
+        "description": "Assault is any gesture or preparation causing another person to fear immediate criminal force."
+    },
+    "Section 352": {
+        "title": "Punishment for assault or criminal force otherwise than on grave provocation",
+        "description": "Assault or criminal force, except in cases of grave provocation, is punishable with imprisonment up to three months, a fine, or both."
+    },
+    "Section 353": {
+        "title": "Assault or criminal force to deter public servant from discharge of duty",
+        "description": "Assault or criminal force against a public servant to deter them from duty is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 354": {
+        "title": "Assault or criminal force to woman with intent to outrage her modesty",
+        "description": "Assault or criminal force against a woman intending to outrage her modesty is punishable with imprisonment of one to five years and a fine."
+    },
+    "Section 354A": {
+        "title": "Sexual harassment and punishment for sexual harassment",
+        "description": "Sexual harassment, including unwelcome physical contact, sexually explicit acts, or demands for sexual favors, is punishable with imprisonment up to three years or a fine."
+    },
+    "Section 354B": {
+        "title": "Assault or use of criminal force to woman with intent to disrobe",
+        "description": "Assault or use of criminal force to disrobe a woman is punishable with imprisonment of three to seven years and a fine."
+    },
+    "Section 354C": {
+        "title": "Voyeurism",
+        "description": "Voyeurism\u2014watching or capturing images of a woman engaging in private acts without her consent\u2014is punishable with imprisonment from one to three years."
+    },
+    "Section 354D": {
+        "title": "Stalking",
+        "description": "Stalking\u2014repeatedly following or contacting a woman despite disinterest\u2014is punishable with imprisonment up to three years for the first offense and up to five years for a repeat offense."
+    },
+    "Section 355": {
+        "title": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation",
+        "description": "Assault or criminal force with intent to dishonor a person, except on grave provocation, is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 356": {
+        "title": "Assault or criminal force in attempt to commit theft of property carried by a person",
+        "description": "Assault or criminal force to commit theft of property carried by a person is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 357": {
+        "title": "Assault or criminal force in attempt wrongfully to confine a person",
+        "description": "Assault or criminal force in attempting wrongful confinement is punishable with imprisonment up to one year, a fine up to \u20b91,000, or both."
+    },
+    "Section 358": {
+        "title": "Assault or criminal force on grave provocation",
+        "description": "Assault or criminal force on grave provocation is punishable with simple imprisonment up to one month, a fine up to \u20b9200, or both."
+    },
+    "Section 359": {
+        "title": "Kidnapping",
+        "description": "Kidnapping is of two types\u2014kidnapping from India and kidnapping from lawful guardianship."
+    },
+    "Section 360": {
+        "title": "Kidnapping from India",
+        "description": "Taking a person beyond the limits of India without consent is considered kidnapping from India."
+    },
+    "Section 361": {
+        "title": "Kidnapping from lawful guardianship",
+        "description": "Taking or enticing a minor (under 16 for males, 18 for females) or a person of unsound mind from lawful guardianship without consent is kidnapping."
+    },
+    "Section 362": {
+        "title": "Abduction",
+        "description": "Abduction means using force or deceit to make a person go from one place to another."
+    },
+    "Section 363": {
+        "title": "Punishment for kidnapping",
+        "description": "Kidnapping from India or lawful guardianship is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 363A": {
+        "title": "Kidnapping or maiming a minor for purposes of begging",
+        "description": "Kidnapping or maiming a minor for begging is punishable with imprisonment up to ten years and a fine; maiming for begging is punishable with life imprisonment."
+    },
+    "Section 364": {
+        "title": "Kidnapping or abducting in order to murder",
+        "description": "Kidnapping or abducting with intent to murder is punishable with life imprisonment or up to ten years of rigorous imprisonment and a fine."
+    },
+    "Section 364A": {
+        "title": "Kidnapping for ransom, etc.",
+        "description": "Kidnapping for ransom or to force the government, foreign state, or an individual to act is punishable with death or life imprisonment and a fine."
+    },
+    "Section 365": {
+        "title": "Kidnapping or abducting with intent secretly and wrongfully to confine person",
+        "description": "Kidnapping or abducting to wrongfully confine a person is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 366": {
+        "title": "Kidnapping, abducting or inducing woman to compel her marriage, etc.",
+        "description": "Kidnapping, abducting, or inducing a woman to compel her marriage or force illicit intercourse is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 366A": {
+        "title": "Procuration of minor girl",
+        "description": "Inducing a minor girl under 18 for illicit intercourse is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 366B": {
+        "title": "Importation of girl from foreign country",
+        "description": "Importing a girl under 21 into India for illicit intercourse is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 367": {
+        "title": "Kidnapping or abducting in order to subject person to grievous hurt, slavery, etc.",
+        "description": "Kidnapping or abducting to subject someone to grievous hurt, slavery, or unnatural lust is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 368": {
+        "title": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person",
+        "description": "Wrongfully concealing or keeping a kidnapped or abducted person is punishable as if the person had committed the kidnapping or abduction."
+    },
+    "Section 369": {
+        "title": "Kidnapping or abducting child under ten years with intent to steal from its person",
+        "description": "Kidnapping or abducting a child under ten years with intent to steal from them is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 370": {
+        "title": "Trafficking of persons",
+        "description": "Trafficking persons for exploitation using threats, force, fraud, or abuse of power is punishable with imprisonment from seven years to life and a fine."
+    },
+    "Section 370A": {
+        "title": "Exploitation of a trafficked person",
+        "description": "Engaging a trafficked minor in sexual exploitation is punishable with imprisonment from five to seven years and a fine."
+    },
+    "Section 371": {
+        "title": "Habitual dealing in slaves",
+        "description": "Habitual dealing in slaves is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 372": {
+        "title": "Selling minor for purposes of prostitution, etc.",
+        "description": "Selling a minor for prostitution or other immoral purposes is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 373": {
+        "title": "Buying minor for purposes of prostitution, etc.",
+        "description": "Buying a minor for prostitution or immoral purposes is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 374": {
+        "title": "Unlawful compulsory labour",
+        "description": "Unlawfully compelling a person to labor against their will is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 375": {
+        "title": "Rape",
+        "description": "Defines rape, including various forms of sexual penetration against a woman\u2019s consent."
+    },
+    "Section 376": {
+        "title": "Punishment for rape",
+        "description": "Rape is punishable with rigorous imprisonment of at least seven years, extending to life imprisonment, and a fine."
+    },
+    "Section 376A": {
+        "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
+        "description": "Causing the victim\u2019s death or a vegetative state during rape is punishable with at least twenty years of imprisonment, life imprisonment, or death."
+    },
+    "Section 376AB": {
+        "title": "Punishment for rape of a woman under twelve years of age",
+        "description": "Rape of a woman under 12 years is punishable with life imprisonment or death."
+    },
+    "Section 376B": {
+        "title": "Sexual intercourse by husband upon his wife during separation",
+        "description": "Sexual intercourse with a wife during separation without her consent is punishable with imprisonment from two to seven years and a fine."
+    },
+    "Section 376C": {
+        "title": "Sexual intercourse by a person in authority",
+        "description": "Sexual intercourse by a person in authority abusing their position is punishable with imprisonment from five to ten years and a fine."
+    },
+    "Section 376D": {
+        "title": "Gang rape",
+        "description": "Gang rape is punishable with imprisonment of at least twenty years, extending to life imprisonment, and a fine."
+    },
+    "Section 376DA": {
+        "title": "Gang rape of a woman under sixteen years of age",
+        "description": "Gang rape of a woman under 16 is punishable with life imprisonment."
+    },
+    "Section 376DB": {
+        "title": "Gang rape of a woman under twelve years of age",
+        "description": "Gang rape of a woman under 12 is punishable with life imprisonment or death."
+    },
+    "Section 376E": {
+        "title": "Punishment for repeat offenders",
+        "description": "Repeat rape offenders are punishable with life imprisonment or death."
+    },
+    "Section 377": {
+        "title": "Unnatural offences",
+        "description": "Unnatural offenses (carnal intercourse against the order of nature) are punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 378": {
+        "title": "Theft",
+        "description": "Theft is dishonestly taking movable property out of a person\u2019s possession without consent."
+    },
+    "Section 379": {
+        "title": "Punishment for theft",
+        "description": "Theft is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 380": {
+        "title": "Theft in dwelling house, etc.",
+        "description": "Theft in a dwelling house or place for property custody is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 381": {
+        "title": "Theft by clerk or servant of property in possession of master",
+        "description": "Theft by a clerk or servant from their employer is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 382": {
+        "title": "Theft after preparation made for causing death, hurt or restraint",
+        "description": "Theft after preparation to cause death, hurt, or restraint is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 383": {
+        "title": "Extortion",
+        "description": "Extortion is putting a person in fear of injury to obtain property or valuables."
+    },
+    "Section 384": {
+        "title": "Punishment for extortion",
+        "description": "Extortion is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 385": {
+        "title": "Putting person in fear of injury in order to commit extortion",
+        "description": "Attempting extortion by putting a person in fear of injury is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 386": {
+        "title": "Extortion by putting a person in fear of death or grievous hurt",
+        "description": "Extortion by putting a person in fear of death or grievous hurt is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 387": {
+        "title": "Putting a person in fear of death or grievous hurt in order to commit extortion",
+        "description": "Attempting extortion by putting a person in fear of death or grievous hurt is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 388": {
+        "title": "Extortion by threat of accusation of an offence punishable with death or life imprisonment",
+        "description": "Extortion by threatening an accusation of an offense punishable with death or life imprisonment is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 389": {
+        "title": "Putting a person in fear of accusation of an offence to commit extortion",
+        "description": "Attempting extortion by threatening an accusation of an offense punishable with death or life imprisonment is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 390": {
+        "title": "Robbery",
+        "description": "Theft or extortion becomes robbery if the offender voluntarily causes or attempts to cause death, hurt, or wrongful restraint."
+    },
+    "Section 391": {
+        "title": "Dacoity",
+        "description": "When five or more persons commit or attempt to commit robbery, it is called dacoity."
+    },
+    "Section 392": {
+        "title": "Punishment for robbery",
+        "description": "Robbery is punishable with imprisonment up to ten years and a fine (or fourteen years if committed on a highway at night)."
+    },
+    "Section 393": {
+        "title": "Attempt to commit robbery",
+        "description": "Attempt to commit robbery is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 394": {
+        "title": "Voluntarily causing hurt in committing robbery",
+        "description": "Causing hurt during robbery is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 395": {
+        "title": "Punishment for dacoity",
+        "description": "Dacoity is punishable with life imprisonment or up to ten years of rigorous imprisonment and a fine."
+    },
+    "Section 396": {
+        "title": "Dacoity with murder",
+        "description": "Dacoity with murder is punishable with death, life imprisonment, or imprisonment up to ten years and a fine."
+    },
+    "Section 397": {
+        "title": "Robbery or dacoity, with attempt to cause death or grievous hurt",
+        "description": "Robbery or dacoity using a deadly weapon is punishable with at least seven years of imprisonment."
+    },
+    "Section 398": {
+        "title": "Attempt to commit robbery or dacoity when armed with deadly weapon",
+        "description": "Attempting robbery or dacoity while armed is punishable with at least seven years of imprisonment."
+    },
+    "Section 399": {
+        "title": "Making preparation to commit dacoity",
+        "description": "Making preparations for dacoity is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 400": {
+        "title": "Belonging to gang of dacoits",
+        "description": "Belonging to a gang of dacoits is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 401": {
+        "title": "Punishment for belonging to gang of thieves",
+        "description": "Belonging to a gang of thieves is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 402": {
+        "title": "Assembling for purpose of committing dacoity",
+        "description": "Assembling for the purpose of committing dacoity is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 403": {
+        "title": "Dishonest misappropriation of property",
+        "description": "Dishonest misappropriation of property is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 404": {
+        "title": "Dishonest misappropriation of property possessed by deceased person at the time of his death",
+        "description": "Dishonest misappropriation of property possessed by a deceased person at the time of their death is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 405": {
+        "title": "Criminal breach of trust",
+        "description": "Dishonest misappropriation or conversion of entrusted property for personal use or violation of any legal contract regarding its use."
+    },
+    "Section 406": {
+        "title": "Punishment for criminal breach of trust",
+        "description": "Criminal breach of trust is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 407": {
+        "title": "Criminal breach of trust by carrier, wharfinger, etc.",
+        "description": "Criminal breach of trust by a carrier, wharfinger, or warehouse-keeper is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 408": {
+        "title": "Criminal breach of trust by clerk or servant",
+        "description": "Criminal breach of trust by a clerk or servant is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 409": {
+        "title": "Criminal breach of trust by public servant, banker, merchant, or agent",
+        "description": "Criminal breach of trust by a public servant, banker, merchant, or agent is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 410": {
+        "title": "Stolen property",
+        "description": "Defines stolen property as any property obtained by theft, extortion, or criminal misappropriation."
+    },
+    "Section 411": {
+        "title": "Dishonestly receiving stolen property",
+        "description": "Dishonestly receiving stolen property is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 412": {
+        "title": "Dishonestly receiving property stolen in the commission of a dacoity",
+        "description": "Dishonestly receiving property stolen in the commission of a dacoity is punishable with life imprisonment or imprisonment up to ten years and a fine."
+    },
+    "Section 413": {
+        "title": "Habitually dealing in stolen property",
+        "description": "Habitually dealing in stolen property is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 414": {
+        "title": "Assisting in concealment of stolen property",
+        "description": "Assisting in concealing stolen property is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 415": {
+        "title": "Cheating",
+        "description": "Cheating is fraudulently inducing a person to deliver property or act in a way that causes harm."
+    },
+    "Section 416": {
+        "title": "Cheating by personation",
+        "description": "Cheating by personation is pretending to be another person to deceive someone."
+    },
+    "Section 417": {
+        "title": "Punishment for cheating",
+        "description": "Cheating is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 418": {
+        "title": "Cheating with knowledge that wrongful loss may ensue to a person whose interest the offender is bound to protect",
+        "description": "Cheating with knowledge that wrongful loss may result to someone whose interest the offender is bound to protect is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 419": {
+        "title": "Punishment for cheating by personation",
+        "description": "Cheating by personation is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 420": {
+        "title": "Cheating and dishonestly inducing delivery of property",
+        "description": "Cheating and dishonestly inducing delivery of property is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 421": {
+        "title": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors",
+        "description": "Dishonest removal or concealment of property to prevent distribution among creditors is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 422": {
+        "title": "Dishonestly or fraudulently preventing debt being available for creditors",
+        "description": "Fraudulently preventing debts from being available to creditors is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 423": {
+        "title": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration",
+        "description": "Fraudulently executing a deed of transfer with false consideration is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 424": {
+        "title": "Dishonest or fraudulent removal or concealment of property",
+        "description": "Fraudulent removal or concealment of property is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 425": {
+        "title": "Mischief",
+        "description": "Mischief is causing wrongful loss or damage to property with intent or knowledge."
+    },
+    "Section 426": {
+        "title": "Punishment for mischief",
+        "description": "Mischief is punishable with imprisonment up to three months, a fine, or both."
+    },
+    "Section 427": {
+        "title": "Mischief causing damage to the amount of fifty rupees",
+        "description": "Mischief causing damage of Rs. 50 or more is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 428": {
+        "title": "Mischief by killing or maiming animal of the value of ten rupees",
+        "description": "Mischief by killing or maiming an animal valued at Rs. 10 or more is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 429": {
+        "title": "Mischief by killing or maiming cattle, etc., of any value or any animal of the value of fifty rupees",
+        "description": "Mischief by killing or maiming cattle or animals worth Rs. 50 or more is punishable with imprisonment up to five years, a fine, or both."
+    },
+    "Section 430": {
+        "title": "Mischief by causing diminution of supply of water for agricultural or other purposes",
+        "description": "Mischief by causing disruption to the supply of water for agricultural or other purposes is punishable with imprisonment up to five years, a fine, or both."
+    },
+    "Section 431": {
+        "title": "Mischief by injury to public road, bridge, river, or navigable channel",
+        "description": "Mischief by damaging public roads, bridges, rivers, or navigation channels is punishable with imprisonment up to five years, a fine, or both."
+    },
+    "Section 432": {
+        "title": "Mischief by causing inundation or obstruction to public drainage attended with damage",
+        "description": "Mischief by causing flooding or obstructing public drainage is punishable with imprisonment up to five years, a fine, or both."
+    },
+    "Section 433": {
+        "title": "Mischief by destroying, moving, or rendering less useful a lighthouse or sea-mark",
+        "description": "Mischief by destroying, moving, or rendering a lighthouse useless is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 434": {
+        "title": "Mischief by destroying or moving landmark fixed by public authority",
+        "description": "Mischief by destroying or moving a landmark fixed by a public authority is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 435": {
+        "title": "Mischief by fire or explosive substance with intent to cause damage to property",
+        "description": "Mischief by fire or explosives causing property damage over Rs. 100 is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 436": {
+        "title": "Mischief by fire or explosive substance with intent to destroy house, etc.",
+        "description": "Mischief by fire or explosives with intent to destroy a house, place of worship, or public property is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 437": {
+        "title": "Mischief with intent to destroy or make unsafe a decked vessel or one of twenty tons burden",
+        "description": "Mischief with intent to destroy or render a vessel unsafe is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 438": {
+        "title": "Punishment for mischief described in Section 437 committed by fire or explosive substance",
+        "description": "Mischief described in Section 437 committed by fire or explosives is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 439": {
+        "title": "Punishment for intentionally running vessel aground, or abandoning it, intending to cause damage",
+        "description": "Intentionally running a vessel aground or abandoning it to cause damage is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 440": {
+        "title": "Mischief committed after preparation made for causing death or hurt",
+        "description": "Mischief committed after preparation to cause death or hurt is punishable with imprisonment up to five years, a fine, or both."
+    },
+    "Section 441": {
+        "title": "Criminal trespass",
+        "description": "Criminal trespass is unlawfully entering or remaining on someone's property with intent to commit an offense or cause annoyance."
+    },
+    "Section 442": {
+        "title": "House-trespass",
+        "description": "House-trespass is criminal trespass into a building, tent, or vessel used as a dwelling or place of worship."
+    },
+    "Section 443": {
+        "title": "Lurking house-trespass",
+        "description": "Lurking house-trespass is house-trespass where the offender conceals their presence."
+    },
+    "Section 444": {
+        "title": "Lurking house-trespass by night",
+        "description": "Lurking house-trespass by night is committed between sunset and sunrise while concealing presence."
+    },
+    "Section 445": {
+        "title": "Housebreaking",
+        "description": "Housebreaking is house-trespass using force, threats, or deception."
+    },
+    "Section 446": {
+        "title": "Housebreaking by night",
+        "description": "Housebreaking by night is committed between sunset and sunrise."
+    },
+    "Section 447": {
+        "title": "Punishment for criminal trespass",
+        "description": "Criminal trespass is punishable with imprisonment up to three months, a fine up to Rs. 500, or both."
+    },
+    "Section 448": {
+        "title": "Punishment for house-trespass",
+        "description": "House-trespass is punishable with imprisonment up to one year, a fine up to Rs. 1000, or both."
+    },
+    "Section 449": {
+        "title": "House-trespass to commit offence punishable with death",
+        "description": "House-trespass to commit an offense punishable with death is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 450": {
+        "title": "House-trespass in order to commit an offence punishable with imprisonment for life",
+        "description": "House-trespass to commit an offense punishable with life imprisonment is punishable with up to ten years and a fine."
+    },
+    "Section 451": {
+        "title": "House-trespass to commit offence punishable with imprisonment",
+        "description": "House-trespass to commit an offense punishable with imprisonment is punishable with up to two years and a fine."
+    },
+    "Section 452": {
+        "title": "House-trespass after preparation for hurt, assault, or wrongful restraint",
+        "description": "House-trespass after preparation to cause hurt, assault, or wrongful restraint is punishable with up to seven years and a fine."
+    },
+    "Section 453": {
+        "title": "Punishment for lurking house-trespass or housebreaking",
+        "description": "Lurking house-trespass or housebreaking is punishable with up to three years and a fine."
+    },
+    "Section 454": {
+        "title": "Lurking house-trespass or housebreaking in order to commit offence punishable with imprisonment",
+        "description": "Lurking house-trespass or housebreaking to commit an offense punishable with imprisonment is punishable with up to ten years and a fine."
+    },
+    "Section 455": {
+        "title": "Lurking house-trespass or housebreaking after preparation for hurt, assault, or wrongful restraint",
+        "description": "Lurking house-trespass or housebreaking after preparation to cause hurt, assault, or wrongful restraint is punishable with up to ten years and a fine."
+    },
+    "Section 456": {
+        "title": "Punishment for lurking house-trespass or housebreaking by night",
+        "description": "Lurking house-trespass or housebreaking by night is punishable with up to three years and a fine."
+    },
+    "Section 457": {
+        "title": "Lurking house-trespass or housebreaking by night in order to commit an offence punishable with imprisonment",
+        "description": "Lurking house-trespass or housebreaking by night to commit an offense punishable with imprisonment is punishable with up to fourteen years and a fine."
+    },
+    "Section 458": {
+        "title": "Lurking house-trespass or housebreaking by night after preparation for hurt, assault, or wrongful restraint",
+        "description": "Lurking house-trespass or housebreaking by night after preparation to cause hurt, assault, or wrongful restraint is punishable with up to fourteen years and a fine."
+    },
+    "Section 459": {
+        "title": "Grievous hurt caused while committing lurking house-trespass or housebreaking",
+        "description": "Causing grievous hurt while committing lurking house-trespass or housebreaking is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 460": {
+        "title": "Death caused while committing lurking house-trespass or housebreaking",
+        "description": "Causing death while committing lurking house-trespass or housebreaking is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 461": {
+        "title": "Dishonestly breaking open receptacle containing property",
+        "description": "Dishonestly breaking open a receptacle containing property is punishable with up to two years and a fine. 462: A person entrusted with property breaking open a receptacle is punishable with up to three years and a fine."
+    },
+    "Section 462": {
+        "title": "Punishment for person entrusted with property breaking open receptacle",
+        "description": "A person entrusted with property breaking open a receptacle is punishable with up to three years and a fine."
+    },
+    "Section 463": {
+        "title": "Forgery",
+        "description": "Forgery is making a false document with intent to cause damage or commit fraud."
+    },
+    "Section 464": {
+        "title": "Making a false document",
+        "description": "Making a false document includes signing someone else\u2019s name without authorization or altering a valid document."
+    },
+    "Section 465": {
+        "title": "Punishment for forgery",
+        "description": "Forgery is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 466": {
+        "title": "Forgery of record of Court or of public register, etc.",
+        "description": "Forgery of court records or public registers is punishable with up to seven years and a fine."
+    },
+    "Section 467": {
+        "title": "Forgery of valuable security, will, etc.",
+        "description": "Forgery of valuable security, will, or authority to transfer property is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 468": {
+        "title": "Forgery for purpose of cheating",
+        "description": "Forgery for cheating purposes is punishable with up to seven years and a fine."
+    },
+    "Section 469": {
+        "title": "Forgery for purpose of harming reputation",
+        "description": "Forgery for harming someone's reputation is punishable with up to three years and a fine."
+    },
+    "Section 470": {
+        "title": "Forged document",
+        "description": "A forged document is one that has been fraudulently altered or created."
+    },
+    "Section 471": {
+        "title": "Using as genuine a forged document",
+        "description": "Using a forged document as genuine is punishable as if the person forged it."
+    },
+    "Section 472": {
+        "title": "Making or possessing counterfeit seal, etc., with intent to commit forgery",
+        "description": "Making or possessing counterfeit seals or instruments for forgery is punishable with up to seven years and a fine."
+    },
+    "Section 473": {
+        "title": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable otherwise",
+        "description": "Making or possessing counterfeit seals or instruments for forgery of valuable securities is punishable with up to ten years and a fine."
+    },
+    "Section 474": {
+        "title": "Possessing a document knowing it to be forged, with intent to use it as genuine",
+        "description": "Possessing a forged document with intent to use it as genuine is punishable with up to seven years and a fine."
+    },
+    "Section 475": {
+        "title": "Counterfeiting a device or mark used for authenticating documents described in Section 467",
+        "description": "Counterfeiting a device or mark used to authenticate documents described in Section 467 is punishable with up to ten years and a fine."
+    },
+    "Section 476": {
+        "title": "Counterfeiting a device or mark used for authenticating documents described in Section 468",
+        "description": "Counterfeiting a device or mark used to authenticate documents described in Section 468 is punishable with up to seven years and a fine."
+    },
+    "Section 477": {
+        "title": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",
+        "description": "Fraudulently canceling, destroying, or altering wills, securities, or adoption authorities is punishable with up to seven years and a fine."
+    },
+    "Section 477A": {
+        "title": "Falsification of accounts",
+        "description": "Falsification of accounts by a clerk, servant, or officer is punishable with up to seven years and a fine."
+    },
+    "Section 478": {
+        "title": "Trade mark",
+        "description": "Defines trademarks. A mark used for distinguishing goods manufactured or sold by a specific person."
+    },
+    "Section 479": {
+        "title": "Property mark",
+        "description": "Defines property marks. A mark used to denote ownership of movable property."
+    },
+    "Section 480": {
+        "title": "Using a false trade mark",
+        "description": "Using a false trademark is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 481": {
+        "title": "Using a false property mark",
+        "description": "Using a false property mark is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 482": {
+        "title": "Punishment for using a false trade mark or property mark",
+        "description": "Punishment for using a false trademark or property mark is up to two years of imprisonment, a fine, or both."
+    },
+    "Section 483": {
+        "title": "Counterfeiting a trade mark or property mark used by another",
+        "description": "Counterfeiting a trademark or property mark used by another is punishable with up to two years, a fine, or both."
+    },
+    "Section 484": {
+        "title": "Counterfeiting a mark used by a public servant",
+        "description": "Counterfeiting a mark used by a public servant is punishable with up to three years and a fine."
+    },
+    "Section 485": {
+        "title": "Making or possessing an instrument for counterfeiting a trade mark or property mark",
+        "description": "Making or possessing instruments for counterfeiting a trademark or property mark is punishable with up to three years and a fine."
+    },
+    "Section 486": {
+        "title": "Selling goods marked with a counterfeit trade mark or property mark",
+        "description": "Selling goods with counterfeit trademarks or property marks is punishable with up to one year, a fine, or both."
+    },
+    "Section 487": {
+        "title": "Making a false mark upon any receptacle containing goods",
+        "description": "Making a false mark on a receptacle containing goods is punishable with up to one year, a fine, or both."
+    },
+    "Section 488": {
+        "title": "Punishment for making use of any false mark",
+        "description": "Punishment for using a false mark is up to one year of imprisonment, a fine, or both."
+    },
+    "Section 489": {
+        "title": "Tampering with property mark with intent to cause injury",
+        "description": "Tampering with a property mark with intent to cause injury is punishable with up to one year, a fine, or both."
+    },
+    "Section 489A": {
+        "title": "Counterfeiting currency notes or banknotes",
+        "description": "Counterfeiting currency notes or banknotes is punishable with life imprisonment or up to ten years and a fine."
+    },
+    "Section 489B": {
+        "title": "Using as genuine, forged or counterfeit currency notes or banknotes",
+        "description": "Using counterfeit currency notes as genuine is punishable with up to ten years and a fine."
+    },
+    "Section 489C": {
+        "title": "Possession of forged or counterfeit currency notes or banknotes",
+        "description": "Possessing counterfeit currency notes is punishable with up to seven years and a fine."
+    },
+    "Section 489D": {
+        "title": "Making or possessing instruments or materials for forging currency notes or banknotes",
+        "description": "Making or possessing instruments or materials for counterfeiting currency notes is punishable with up to ten years and a fine."
+    },
+    "Section 489E": {
+        "title": "Making or using documents resembling currency notes or banknotes",
+        "description": "Making or using documents resembling currency notes or banknotes is punishable with up to seven years and a fine."
+    },
+    "Section 490": {
+        "title": "Breach of contract of service during voyage or journey",
+        "description": "Breach of contract of service during a voyage or journey is punishable with imprisonment or a fine."
+    },
+    "Section 491": {
+        "title": "Breach of contract to attend on and supply wants of helpless person",
+        "description": "Breach of contract to attend and supply the needs of a helpless person is punishable with imprisonment or a fine."
+    },
+    "Section 492": {
+        "title": "Breach of contract to serve at distant place to which servant is conveyed at master\u2019s expense",
+        "description": "Breach of contract to serve at a distant place to which a servant is conveyed at the master\u2019s expense is punishable with imprisonment or a fine."
+    },
+    "Section 493": {
+        "title": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage",
+        "description": "A man deceitfully inducing a woman to cohabit under the false belief of lawful marriage is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 494": {
+        "title": "Marrying again during lifetime of husband or wife",
+        "description": "Marrying again while having a spouse alive is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 495": {
+        "title": "Same offence with concealment of former marriage from person with whom subsequent marriage is contracted",
+        "description": "Marrying again while concealing the existence of a previous marriage is punishable with imprisonment up to ten years and a fine."
+    },
+    "Section 496": {
+        "title": "Marriage ceremony fraudulently gone through without lawful marriage",
+        "description": "Fraudulently going through a marriage ceremony without lawful marriage is punishable with imprisonment up to seven years and a fine."
+    },
+    "Section 497": {
+        "title": "Adultery   ",
+        "description": "   Adultery was previously punishable with imprisonment up to five years and a fine."
+    },
+    "Section 498": {
+        "title": "Enticing or taking away or detaining with criminal intent a married woman   ",
+        "description": "   Enticing or detaining a married woman with criminal intent was previously punishable with imprisonment up to two years and a fine."
+    },
+    "Section 498A": {
+        "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+        "description": "Cruelty by a husband or his relatives toward a woman is punishable with imprisonment up to three years and a fine."
+    },
+    "Section 499": {
+        "title": "Defamation",
+        "description": "Defamation includes making or publishing false statements that harm a person\u2019s reputation."
+    },
+    "Section 500": {
+        "title": "Punishment for defamation",
+        "description": "Defamation is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 501": {
+        "title": "Printing or engraving matter known to be defamatory",
+        "description": "Printing or engraving defamatory material knowing it to be false is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 502": {
+        "title": "Sale of printed or engraved substance containing defamatory matter",
+        "description": "Selling printed or engraved defamatory material is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 503": {
+        "title": "Criminal intimidation",
+        "description": "Criminal intimidation is threatening injury to a person or property to cause fear or force an action."
+    },
+    "Section 504": {
+        "title": "Intentional insult with intent to provoke breach of the peace",
+        "description": "Intentional insult meant to provoke a breach of the peace is punishable with imprisonment up to two years, a fine, or both."
+    },
+    "Section 505": {
+        "title": "Statements conducing to public mischief",
+        "description": "Making statements to cause public mischief or hatred between communities is punishable with imprisonment up to three years, a fine, or both."
+    },
+    "Section 506": {
+        "title": "Punishment for criminal intimidation",
+        "description": "Criminal intimidation is punishable with imprisonment up to two years, a fine, or both. If the threat is to cause death or grievous hurt, imprisonment may extend to seven years."
+    },
+    "Section 507": {
+        "title": "Criminal intimidation by anonymous communication",
+        "description": "Criminal intimidation by anonymous communication is punishable with imprisonment up to two years, in addition to the punishment under Section 506."
+    },
+    "Section 508": {
+        "title": "Act caused by inducing person to believe that he will be rendered an object of divine displeasure",
+        "description": "Inducing a person to do something by making them believe they will face divine displeasure if they refuse is punishable with imprisonment up to one year, a fine, or both."
+    },
+    "Section 509": {
+        "title": "Word, gesture or act intended to insult the modesty of a woman",
+        "description": "Using words, gestures, or acts intended to insult a woman's modesty is punishable with imprisonment up to three years and a fine."
+    },
+    "Section 510": {
+        "title": "Misconduct in public by a drunken person",
+        "description": "Misconduct by a drunken person in public is punishable with imprisonment up to 24 hours or a fine of Rs. 10 or both."
+    },
+    "Section 511": {
+        "title": "Punishment for attempting to commit offences",
+        "description": "Attempting to commit an offense punishable with life imprisonment or a lengthy prison term shall be punished with half the term of imprisonment prescribed for the offense or a fine, or both."
+    }
+}
