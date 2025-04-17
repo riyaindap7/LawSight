@@ -41,7 +41,7 @@
 
 To maintain responsible usage and ensure data security, access to the trained model and IPC-related dataset is provided upon request.
 
-👉 **[Request Access via Google Form]([https://forms.gle/ycqaonVeb89ZLfG68])**
+👉 **[Request Access via Google Form](https://forms.gle/ycqaonVeb89ZLfG68)**
 
 Once approved, you'll receive a download link and setup instructions via email.
 
