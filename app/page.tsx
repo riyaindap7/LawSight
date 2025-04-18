@@ -75,21 +75,21 @@ export default function LandingPage() {
       name: "Chief John Smith",
       role: "Police Department",
       content: "This assistant has revolutionized how our officers handle documentation and case management.",
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg?height=60&width=60",
       rating: 5,
     },
     {
       name: "Officer Maria Rodriguez",
       role: "Field Operations",
       content: "The speech-to-text feature saves me hours of paperwork after each shift.",
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/female.jpg?height=60&width=60",
       rating: 5,
     },
     {
       name: "Detective Alex Chen",
       role: "Investigations Unit",
       content: "IPC prediction has improved our case filing accuracy by 45% in just three months.",
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg?height=60&width=60",
       rating: 4,
     },
   ]
@@ -784,7 +784,7 @@ export default function LandingPage() {
                   transition={{ duration: 0.5, delay: 0.8 }}
                 >
                   <Image
-                    src="./pages/public/police.jpg?height=600&width=1000"
+                    src="/police.jpg?height=600&width=1000"
                     alt="Police Assistant Dashboard"
                     width={1000}
                     height={600}
@@ -1144,9 +1144,9 @@ export default function LandingPage() {
                   transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
                 />
                 <Image
-                  src="/p2.jpg?height=400&width=600"
+                  src="/p1.jpg?height=100&width=500"
                   alt="IPC Prediction Interface"
-                  width={600}
+                  width={700}
                   height={400}
                   className="object-cover relative z-0"
                 />

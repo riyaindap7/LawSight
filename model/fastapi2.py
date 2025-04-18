@@ -1,205 +1,3 @@
-# import json
-# import pickle
-# import torch
-# import os
-# import re
-# import logging
-# from fastapi import FastAPI, HTTPException
-# from pydantic import BaseModel
-# from transformers import AutoTokenizer, AutoModelForSequenceClassification
-# from fastapi.middleware.cors import CORSMiddleware
-# from nltk.corpus import stopwords
-# import nltk
-
-# # Initialize FastAPI app
-# app = FastAPI()
-
-# # Enable CORS
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-# # Constants
-# MODEL_DIR = "./Model"
-# THRESHOLD = 0.3
-# IPC_DESCRIPTIONS_FILE = "ipc_labels.json"
-
-# # Logger setup
-# logging.basicConfig(level=logging.INFO)
-
-# # Ensure stopwords are downloaded
-# try:
-#     nltk.data.find('corpora/stopwords')
-# except LookupError:
-#     nltk.download('stopwords')
-
-# # Load IPC Descriptions
-# def load_ipc_descriptions():
-#     try:
-#         with open(IPC_DESCRIPTIONS_FILE, 'r', encoding="utf-8") as f:
-#             ipc_descriptions = json.load(f)
-#         logging.info("✅ IPC descriptions loaded successfully.")
-#         return ipc_descriptions
-#     except Exception as e:
-#         logging.error(f"❌ Error loading IPC descriptions: {e}")
-#         raise HTTPException(status_code=500, detail="IPC descriptions loading failed")
-
-# ipc_descriptions = load_ipc_descriptions()
-
-# # Load model
-# def load_model():
-#     logging.info(f"🔄 Loading model from {MODEL_DIR}...")
-#     latest_model_file = os.path.join(MODEL_DIR, "./Model/latest_model.txt")
-    
-#     if not os.path.exists(latest_model_file):
-#         raise FileNotFoundError(f"⚠️ Latest model file {latest_model_file} not found!")
-
-#     with open(latest_model_file, "r") as f:
-#         latest_model_path = f.read().strip()
-
-#     if not os.path.exists(latest_model_path):
-#         raise FileNotFoundError(f"⚠️ Model path {latest_model_path} is invalid!")
-
-#     with open(os.path.join(latest_model_path, "metadata.json"), "r") as f:
-#         metadata = json.load(f)
-#     with open(os.path.join(latest_model_path, "mlb.pkl"), "rb") as f:
-#         mlb = pickle.load(f)
-
-#     model = AutoModelForSequenceClassification.from_pretrained(
-#         latest_model_path, num_labels=metadata["num_labels"], problem_type="multi_label_classification"
-#     )
-#     tokenizer = AutoTokenizer.from_pretrained(latest_model_path)
-
-#     logging.info(f"✅ Model loaded successfully from {latest_model_path}")
-#     return model, tokenizer, mlb
-
-# try:
-#     model, tokenizer, mlb = load_model()
-#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-#     model.to(device)
-#     logging.info(f"✅ Model initialized with {len(mlb.classes_)} IPC sections")
-# except Exception as e:
-#     logging.error(f"❌ Model loading failed: {e}")
-#     model, tokenizer, mlb = None, None, None
-
-# # Pydantic model for request validation
-# class CaseRequest(BaseModel):
-#     text: str
-
-# # Text preprocessing
-# def preprocess_text(text):
-#     text = text.lower()
-#     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation but keep words & spaces
-#     text = re.sub(r'\s+', ' ', text).strip()  # Normalize spaces
-#     return text
-
-# # Legal keyword validation
-# def is_valid_case_description(text):
-#     if len(text.split()) < 10:
-#         return False, "⚠️ Text is too short to be a valid case description."
-
-#     legal_keywords = {
-#         'accused', 'victim', 'complainant', 'theft', 'assault', 'fraud', 'criminal',
-#         'crime', 'police', 'fir', 'charge', 'court', 'law', 'murder', 'robbery',
-#         'arrest', 'bail', 'stolen', 'forgery', 'kidnap', 'threat', 'damage', 'case',
-#         'section', 'ipc', 'crpc', 'evidence', 'witness', 'investigation'
-#     }
-    
-#     words_in_text = set(text.lower().split())
-#     contains_legal_terms = bool(words_in_text & legal_keywords)
-
-#     if not contains_legal_terms:
-#         return False, "⚠️ Text does not contain sufficient legal terminology."
-    
-#     stop_words = set(stopwords.words('english'))
-#     words = [word for word in words_in_text if word.isalpha()]
-    
-#     stopword_ratio = sum(1 for word in words if word in stop_words) / len(words) if words else 0
-#     if stopword_ratio > 0.7:
-#         return False, "⚠️ Text contains too many stopwords and lacks substance."
-
-#     return True, ""
-
-# # IPC Section Prediction
-# def predict_ipc_sections(case_text):
-#     if not model or not tokenizer or not mlb:
-#         raise HTTPException(status_code=500, detail="⚠️ Model not loaded properly!")
-
-#     is_valid, reason = is_valid_case_description(case_text)
-#     if not is_valid:
-#         return {"error": reason}
-    
-#     model.eval()
-#     processed_text = preprocess_text(case_text)
-#     encoding = tokenizer(processed_text, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
-#     inputs = {key: val.to(device) for key, val in encoding.items()}
-    
-#     with torch.no_grad():
-#         outputs = model(**inputs)
-    
-#     probabilities = torch.sigmoid(outputs.logits).cpu().numpy()[0]
-#     ranked_sections = sorted(
-#         [(mlb.classes_[i], float(probabilities[i])) for i in range(len(probabilities)) if probabilities[i] > THRESHOLD],
-#         key=lambda x: x[1], reverse=True
-#     )[:5]
-
-#     print("🔍 Ranked Sections:", ranked_sections)  # Debugging
-#     print("==========================================")
-#     print("🔍 Available IPC Description Keys:", list(ipc_descriptions.keys()))
-#     result_with_descriptions = []
-
-    
-
-
-#     for sec, conf in ranked_sections:
-#         print("\n==========================================\n")
-#         print("sec : " , sec)
-#         print("\n==========================================\n")
-#         print("conf : " , conf)
-#         print("\n==========================================\n")
-#         new_sec = re.findall(r"\d+[A-Z]?", sec)[0]
-#         print("new_sec : " , new_sec)
-#         print("\n==========================================\n")
-#         # section_key = f"Section {sec}"  # Ensure the key format matches JSON structure
-#         section_key = sec.split(" in ")[0] # Ensure the key format matches JSON structure
-#         # section_key = sec.split(" in ")[0]
-        
-#         if section_key in ipc_descriptions:
-#             title = ipc_descriptions[section_key].get("title", "⚠️ Title not available.")
-#             description = ipc_descriptions[section_key].get("description", "⚠️ Description not available.")
-#         else:
-#             title = "⚠️ Title not available."
-#             description = "⚠️ Description not available."
-
-#         result_with_descriptions.append({
-#             "section": sec,
-#             "confidence": round(conf, 4),
-#             "title": title,
-#             "description": description
-#         })
-
-#     print("Final Results:", result_with_descriptions)  # Debugging
-
-#     return {"sections": result_with_descriptions}
-
-
-# # API Endpoint
-# @app.post("/predict")
-# async def predict(case: CaseRequest):
-#     return predict_ipc_sections(case.text)
-
-
-
-
-
-
-# ====================================== Tanmay's Case Prediction CODE Starts ======================================
-
-
 
 import json
 import pickle
@@ -215,35 +13,35 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from fastapi.middleware.cors import CORSMiddleware
 from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI
 
 # Initialize FastAPI app
 app = FastAPI()
-
+origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://192.168.0.101:3000"
+]
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
     # allow_origins=["*"],
-    allow_origins=["http://localhost:3000"],  # Allow requests from the frontend
+    allow_origins=origins,  # Allow requests from the frontend
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
 # Constants
 # MODEL_DIR = "./Model/bert_ipc_classifier_epoch12_acc0.9799"
 MODEL_DIR = "./Model"
-SIMILARITY_MODEL_DIR = "C:/Users/riyai/OneDrive/Documents/ipcsightui/model/Case_Prediction/SimilarityModel"
+SIMILARITY_MODEL_DIR = "C:/Users/Sachi/OneDrive/Desktop/lawsight/LawSight/model/Case_Prediction/SimilarityModel"
 THRESHOLD = 0.3
 IPC_DESCRIPTIONS_FILE = "ipc_labels.json"
 
 # Logger setup
 logging.basicConfig(level=logging.INFO)
-
-# Ensure stopwords are downloaded
-# try:
-#     nltk.data.find('corpora/stopwords')
-# except LookupError:
-#     nltk.download('stopwords')
 
 # Load IPC Descriptions
 def load_ipc_descriptions():
@@ -257,32 +55,6 @@ def load_ipc_descriptions():
         raise HTTPException(status_code=500, detail="IPC descriptions loading failed")
 
 ipc_descriptions = load_ipc_descriptions()
-
-# Load IPC Section Prediction Model
-# def load_ipc_model():
-#     logging.info(f"🔄 Loading IPC model from {MODEL_DIR}...")
-#     latest_model_path = MODEL_DIR  # Directly use the MODEL_DIR path
-
-#     # Check for required files
-#     metadata_path = os.path.join(latest_model_path, "metadata.json")
-#     mlb_path = os.path.join(latest_model_path, "mlb.pkl")
-#     if not os.path.exists(metadata_path) or not os.path.exists(mlb_path):
-#         raise FileNotFoundError(f"⚠️ Required files (metadata.json or mlb.pkl) not found in {latest_model_path}!")
-
-#     with open(metadata_path, "r") as f:
-#         metadata = json.load(f)
-#     with open(mlb_path, "rb") as f:
-#         mlb = pickle.load(f)
-
-#     model = AutoModelForSequenceClassification.from_pretrained(
-#         latest_model_path, num_labels=metadata["num_labels"], problem_type="multi_label_classification"
-#     )
-#     tokenizer = AutoTokenizer.from_pretrained(latest_model_path)
-
-#     logging.info(f"✅ IPC model loaded successfully from {latest_model_path}")
-#     return model, tokenizer, mlb
-
-
 
 
 def load_ipc_model():
@@ -320,71 +92,6 @@ try:
 except Exception as e:
     logging.error(f"❌ IPC model loading failed: {e}")
     ipc_model, ipc_tokenizer, ipc_mlb = None, None, None
-
-# Load Case Similarity Model
-# class CaseSimilarityModel:
-#     def __init__(self, embedding_model_name="sentence-transformers/LaBSE"):
-#         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-#         self.embedding_model = SentenceTransformer(embedding_model_name, device=str(self.device))
-#         self.case_database = {
-#             'ids': [],
-#             'texts': [],
-#             'embeddings': []
-#         }
-#         self.index = None
-
-#     def load(self, model_dir):
-#         try:
-#             # Load case database
-#             case_database_path = os.path.join(model_dir, "case_database.pkl")
-#             embeddings_path = os.path.join(model_dir, "embeddings.npy")
-#             index_path = os.path.join(model_dir, "case_index.faiss")
-
-#             if not os.path.exists(case_database_path):
-#                 raise FileNotFoundError(f"⚠️ Case database file {case_database_path} not found!")
-#             if not os.path.exists(embeddings_path):
-#                 raise FileNotFoundError(f"⚠️ Embeddings file {embeddings_path} not found!")
-#             if not os.path.exists(index_path):
-#                 raise FileNotFoundError(f"⚠️ FAISS index file {index_path} not found!")
-
-#             with open(case_database_path, "rb") as f:
-#                 self.case_database = pickle.load(f)
-
-#             embeddings = np.load(embeddings_path)
-#             self.case_database['embeddings'] = embeddings.tolist()
-
-#             self.index = faiss.read_index(index_path)
-
-#             logging.info(f"✅ Case similarity model loaded successfully from {model_dir}")
-#         except Exception as e:
-#             logging.error(f"❌ Error loading case similarity model: {e}")
-#             raise HTTPException(status_code=500, detail=f"Error loading similarity model: {e}")
-
-#     def find_similar_cases(self, query_text, top_k=5):
-#         if self.index is None or self.index.ntotal == 0:
-#             raise HTTPException(status_code=500, detail="⚠️ Similarity model index is not built or empty!")
-
-#         # Generate embedding for the query
-#         query_embedding = self.embedding_model.encode(query_text, convert_to_tensor=True).cpu().numpy()
-#         query_embedding = np.expand_dims(query_embedding, axis=0).astype('float32')
-
-#         # Search the FAISS index
-#         distances, indices = self.index.search(query_embedding, top_k)
-#         results = []
-#         for idx, distance in zip(indices[0], distances[0]):
-#             if idx < len(self.case_database['ids']):
-#                 results.append({
-#                     "case_id": self.case_database['ids'][idx],
-#                     "case_text": self.case_database['texts'][idx],
-#                     "similarity": 1 / (1 + distance)  # Convert distance to similarity
-#                 })
-#         return results
-
-
-
-
-
-
 
 # Replace your current CaseSimilarityModel class with this updated version
 
@@ -531,10 +238,7 @@ class CaseSimilarityModel:
             
         combined = np.concatenate(embeddings)
         return combined
-    
 
-
-# ==========================================================================
 
     def resize_embedding(self, embedding, target_dim):
         """
@@ -562,35 +266,9 @@ class CaseSimilarityModel:
             return embedding[:target_dim]
 
 
-
-# =========================================================
-
     def find_similar_cases(self, query_text, top_k=5):
         if self.index is None or self.index.ntotal == 0:
             raise HTTPException(status_code=500, detail="⚠️ Similarity model index is not built or empty!")
-
-        # try:
-        #     # Generate combined embedding for the query
-        #     query_embedding = self.get_combined_embedding(query_text)
-            
-        #     # Check for dimension mismatch
-        #     if query_embedding.shape[0] != self.embedding_dim:
-        #         logging.error(f"⚠️ Query embedding dimension {query_embedding.shape[0]} doesn't match index dimension {self.embedding_dim}")
-                
-        #         # Option 1: Resize the embedding (simple but may not work well)
-        #         if query_embedding.shape[0] < self.embedding_dim:
-        #             # Pad with zeros
-        #             padded = np.zeros(self.embedding_dim, dtype=np.float32)
-        #             padded[:query_embedding.shape[0]] = query_embedding
-        #             query_embedding = padded
-        #         else:
-        #             # Truncate
-        #             query_embedding = query_embedding[:self.embedding_dim]
-                
-        #         logging.warning(f"Resized query embedding to match index dimension {self.embedding_dim}")
-            
-        #     query_embedding = np.expand_dims(query_embedding, axis=0).astype('float32')
-
 
         try:
             # Generate combined embedding for the query
@@ -650,11 +328,24 @@ def is_valid_case_description(text):
         return False, "⚠️ Text is too short to be a valid case description."
 
     legal_keywords = {
-        'accused', 'victim', 'complainant', 'theft', 'assault', 'fraud', 'criminal',
-        'crime', 'police', 'fir', 'charge', 'court', 'law', 'murder', 'robbery',
-        'arrest', 'bail', 'stolen', 'forgery', 'kidnap', 'threat', 'damage', 'case',
-        'section', 'ipc', 'crpc', 'evidence', 'witness', 'investigation'
-    }
+    # Original legal terms
+    'accused', 'victim', 'complainant', 'theft', 'assault', 'fraud', 'criminal',
+    'crime', 'police', 'fir', 'charge', 'court', 'law', 'murder', 'robbery',
+    'arrest', 'bail', 'stolen', 'forgery', 'kidnap', 'threat', 'damage', 'case',
+    'section', 'ipc', 'crpc', 'evidence', 'witness', 'investigation',
+    'killed', 'dead', 'knife', 'gun', 'shot', 'beat', 'beaten', 'fight',
+    'quarrel', 'argument', 'screaming', 'shouting', 'blood', 'bloodstained',
+    'ran away', 'escaped', 'hurt', 'injury', 'injured', 'attack', 'attacked',
+    'death', 'body', 'lying', 'unconscious', 'property dispute', 'revenge',
+    'revenge attack', 'dispute', 'fight over land', 'molested', 'touched',
+    'harassed', 'abused', 'misbehaved', 'intimidated', 'pushed', 'slapped',
+    'hit', 'choked', 'strangled', 'broken into', 'entered forcefully',
+    'came with a weapon', 'weapon', 'dangerous', 'killing', 'burned', 'acid',
+    'threw acid', 'harmed', 'life threat', 'tried to kill', 'unwanted touch',
+    'forcefully entered', 'destroyed', 'vandalized', 'suspicious activity',
+    'ran off', 'ran from scene', 'seen running', 'seen escaping',"stabbed"
+}
+
     
     words_in_text = set(text.lower().split())
     contains_legal_terms = bool(words_in_text & legal_keywords)
@@ -757,50 +448,36 @@ async def predict_ipc(case: CaseRequest):
     return {"sections": result_with_descriptions}
 
 
-
-
-
-
-
-# @app.post("/predict/ipc")
-# async def predict_ipc(case: CaseRequest):
-#     if not ipc_model or not ipc_tokenizer or not ipc_mlb:
-#         raise HTTPException(status_code=500, detail="⚠️ IPC model not loaded properly!")
-
-#     ipc_model.eval()
-#     processed_text = case.text.lower()
-#     encoding = ipc_tokenizer(processed_text, padding='max_length', truncation=True, max_length=512, return_tensors='pt')
-#     inputs = {key: val.to(device) for key, val in encoding.items()}
-
-#     with torch.no_grad():
-#         outputs = ipc_model(**inputs)
-
-#     probabilities = torch.sigmoid(outputs.logits).cpu().numpy()[0]
-#     ranked_sections = sorted(
-#         [(ipc_mlb.classes_[i], float(probabilities[i])) for i in range(len(probabilities)) if probabilities[i] > THRESHOLD],
-#         key=lambda x: x[1], reverse=True
-#     )[:5]
-
-#     results = []
-#     for section, confidence in ranked_sections:
-#         results.append({
-#             "section": section,
-#             "confidence": confidence
-#         })
-
-#     return {"sections": results}
-
-# # API Endpoint for Similar Case Prediction
 # @app.post("/predict/similar")
 # async def predict_similar_cases(request: SimilarityRequest):
 #     if not similarity_model:
 #         raise HTTPException(status_code=500, detail="⚠️ Similarity model not loaded properly!")
 
-#     results = similarity_model.find_similar_cases(request.query_text, top_k=request.top_k)
-#     return {"similar_cases": results}
-
-
-
+#     try:
+#         results = similarity_model.find_similar_cases(request.query_text, top_k=request.top_k)
+        
+#         # Format results to maintain compatibility with original API
+#         formatted_results = []
+#         for result in results:
+#             formatted_result = {
+#                 "case_id": result["case_id"],
+#                 "case_text": result["case_text"],
+#                 "similarity": result["similarity"]
+#             }
+            
+#             # Add optional fields if they exist and have content
+#             if "ipc_sections" in result and result["ipc_sections"]:
+#                 formatted_result["ipc_sections"] = result["ipc_sections"]
+                
+#             if "metadata" in result and result["metadata"]:
+#                 formatted_result["metadata"] = result["metadata"]
+                
+#             formatted_results.append(formatted_result)
+            
+#         return {"similar_cases": formatted_results}
+#     except Exception as e:
+#         logging.error(f"❌ Error in predict_similar_cases: {e}")
+#         raise HTTPException(status_code=500, detail=str(e))
 
 
 
@@ -808,6 +485,11 @@ async def predict_ipc(case: CaseRequest):
 async def predict_similar_cases(request: SimilarityRequest):
     if not similarity_model:
         raise HTTPException(status_code=500, detail="⚠️ Similarity model not loaded properly!")
+
+    # Add validation check
+    is_valid, reason = is_valid_case_description(request.query_text)
+    if not is_valid:
+        return {"error": reason}
 
     try:
         results = similarity_model.find_similar_cases(request.query_text, top_k=request.top_k)
@@ -834,15 +516,6 @@ async def predict_similar_cases(request: SimilarityRequest):
     except Exception as e:
         logging.error(f"❌ Error in predict_similar_cases: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
-
-
-
-
-
-# # ====================================== Tanmay's Case Prediction CODE Ends ======================================
-
-
 
 
 
