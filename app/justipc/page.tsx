@@ -42,6 +42,7 @@ async function fetchIPCSections(caseText: string) {
   }
 }
 
+
 // Async function to fetch Similar Cases from the backend
 async function fetchSimilarCases(caseText: string, topK = 5) {
   try {
@@ -107,113 +108,6 @@ export default function ComplaintPage() {
     setSubmitted(false); // Reset submission state
   };
 
-//   return (
-//     <div className="h-screen flex">
-//       <AppSidebar
-//         isOpen={isSidebarOpen}
-//         onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
-//         chatHistory={[]}
-//         onSelectChat={() => {}}
-//         onNewComplaint={handleNewComplaint}
-//         currentLanguage="English"
-//       />
-//       <main className="flex-1 flex flex-col h-screen overflow-hidden pl-4 pr-4 md:pl-8 md:pr-8 relative">
-//         <div className="p-4 border-b w-full border-gray-300">
-//           <h1 className="text-2xl font-bold">LawSight</h1>
-//         </div>
-//         <div className="flex-1 bg-black text-white flex flex-col items-center p-6 overflow-y-auto">
-//           <motion.div
-//             initial={{ opacity: 0, y: -10 }}
-//             animate={{ opacity: 1, y: 0 }}
-//             transition={{ duration: 0.3 }}
-//             className="w-full max-w-3xl border-2 border-gray-300 rounded-xl p-6"
-//           >
-//             <div className="flex items-center justify-between border-b border-gray-400 pb-4 mb-4">
-//               <div className="flex items-center gap-2">
-//                 <FileText className="h-5 w-5 text-gray-600" />
-//                 <span className="font-semibold text-gray-700">New Complaint</span>
-//               </div>
-//               <Button variant="ghost" size="icon" onClick={() => window.history.back()}>
-//                 <ChevronLeft className="h-5 w-5 text-gray-600" />
-//               </Button>
-//             </div>
-//             <Textarea
-//               placeholder="Enter complaint details..."
-//               className="w-full bg-white border border-gray-300 text-black h-32"
-//               value={complaint}
-//               onChange={(e) => setComplaint(e.target.value)}
-//             />
-//             <div className="flex justify-end w-full gap-2 mt-4">
-//               <Button
-//                 variant="outline"
-//                 size="icon"
-//                 className="bg-gray-200 hover:bg-gray-300"
-//               >
-//                 <Mic className="h-4 w-4" />
-//               </Button>
-//               <Button
-//                 className="bg-gray-800 hover:bg-gray-700 text-white"
-//                 onClick={handleSubmit}
-//               >
-//                 Submit Complaint
-//               </Button>
-//             </div>
-//           </motion.div>
-
-//           {submitted && (
-//             <>
-//               {/* Display IPC Sections */}
-//               <motion.div
-//                 initial={{ opacity: 0, y: 10 }}
-//                 animate={{ opacity: 1, y: 0 }}
-//                 transition={{ duration: 0.3 }}
-//                 className="w-full max-w-3xl bg-white border-2 border-gray-300 rounded-xl p-6 mt-6 mb-6"
-//               >
-//                 <h3 className="text-lg font-semibold text-gray-700 mb-2">Applicable IPC Sections:</h3>
-//                 <div className="bg-gray-200 p-4 rounded-lg text-gray-800">
-//                   {Array.isArray(ipcSections) && ipcSections.length > 0 ? (
-//                     ipcSections.map((section, index) => (
-//                       <div key={section?.section || index}>
-//                         <strong>{section?.section} - {section?.title}</strong>: {section?.description} 
-//                         {section?.probability ? ` (Probability: ${section.probability.toFixed(2)})` : ""}
-//                       </div>
-//                     ))
-//                   ) : (
-//                     "No applicable sections found."
-//                   )}
-//                 </div>
-//               </motion.div>
-
-//               {/* Display Similar Cases */}
-//               <motion.div
-//                 initial={{ opacity: 0, y: 10 }}
-//                 animate={{ opacity: 1, y: 0 }}
-//                 transition={{ duration: 0.3 }}
-//                 className="w-full max-w-3xl bg-white border-2 border-gray-300 rounded-xl p-6 mt-6 mb-6"
-//               >
-//                 <h3 className="text-lg font-semibold text-gray-700 mb-2">Similar Cases:</h3>
-//                 <div className="bg-gray-200 p-4 rounded-lg text-gray-800">
-//                   {Array.isArray(similarCases) && similarCases.length > 0 ? (
-//                     similarCases.map((caseItem, index) => (
-//                       <div key={caseItem?.case_id || index}>
-//                         <strong>Case ID:</strong> {caseItem?.case_id} <br />
-//                         <strong>Similarity:</strong> {(caseItem?.similarity * 100).toFixed(2)}% <br />
-//                         <strong>Case Text:</strong> {caseItem?.case_text}
-//                         <hr className="my-2" />
-//                       </div>
-//                     ))
-//                   ) : (
-//                     "No similar cases found."
-//                   )}
-//                 </div>
-//               </motion.div>
-//             </>
-//           )}
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
 
 return (
   <div className="h-screen flex">
